@@ -2,9 +2,15 @@
 !<INPUT 2>! -- subquestion
 !<INPUT 3>! -- entity
 
-<commentblockmarker>###</commentblockmarker>
-
 The description of the original image is "!<INPUT 1>!".
 The provided image is a cropped version focusing on the entity labeled as "!<INPUT 3>!."
 Given the question: "!<INPUT 2>!" which related to that entity.
 Please answer the question according to the provided image.
+
+<commentblockmarker>###</commentblockmarker>
+
+
+
+
+Given the image and its caption: "!<INPUT 1>!"
+Answer the question: "!<INPUT 2>!" with a short and clear response.

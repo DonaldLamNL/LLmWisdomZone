@@ -26,16 +26,16 @@ class ImageDataset():
             self.data = json.load(file)
     
     
-    def entity_extraction(self, caption_model) -> None:
+    def entity_extraction(self, caption_model:LLMChat, savefile:str) -> None:
         for entry in tqdm(self.data, desc="Processing entries for entity extraction"):
             image_path = entry["image_path"]
             question = entry["question"]
-            caption = generate_caption(caption_model, [image_path])
+            caption = generate_caption(caption_model, question, [image_path])
             entities = self.entity_extractor.extract_entities(question, caption)
             entities = list(set(entities))
             entry["caption"] = caption
             entry["objects"] = {key: {} for key in entities}
-            self.save_json("gemini_1_entity_extraction")
+            self.save_json(savefile)
     
     
     def object_detection(self) -> None:
@@ -116,6 +116,28 @@ class ImageDataset():
                     item["subquestions"] = subquestions
     
     
+    def new_subquestion_generating(self, model:LLMChat, savefile:str) -> None:
+        for entry in tqdm(self.data, desc="Generating subquestions"):
+            question = entry["question"]
+            caption = entry["caption"]
+            entities = ", ".join(entry["objects"].keys())
+            subquestions = subquestion_generator(entities, question, caption, model)
+            entry["subquestions"] = subquestions
+            self.save_json(savefile)
+            
+            
+    def new_subquestion_answering(self, model:LLMChat, savefile:str) -> None:
+        for entry in tqdm(self.data, desc="Answering subquestions"):
+            for subquestion in tqdm(entry["subquestions"]):
+                caption = entry["caption"]
+                question = subquestion["question"]
+                image_path = entry["image_path"]
+                entities = ", ".join(entry["objects"].keys())
+                answer = subquestion_answering([image_path], caption, question, entities, model)
+                subquestion["answer"] = answer
+                self.save_json(savefile)
+    
+    
     def subquestion_answering(self, model:LLMChat, two_images=False) -> None:
         for entry in tqdm(self.data, desc="Generating subquestions"):
             for name, entities in entry["objects"].items():
@@ -143,6 +165,22 @@ class ImageDataset():
                         subquestion["answer"] = answer
     
     
+    def new_summarization(self, model:LLMChat, savefile:str) -> None:
+        for entry in tqdm(self.data, desc="Summarizing subquestions"):
+            question = entry["question"]
+            caption = entry["caption"]
+            entities = ", ".join(entry["objects"].keys())
+            subquest_ans = [
+                f"Subquestion {i+1}: {subquestion['question']},\nanswer: {subquestion['answer']}"
+                for i, subquestion in enumerate(entry["subquestions"])
+            ]
+            subquest_ans_info = "\n".join(subquest_ans)
+            summarized_info = summarization(entities, subquest_ans_info, question, caption, model)
+            entry["summarization"] = summarized_info
+            self.save_json(savefile)
+            
+    
+    
     def subquestion_summarization(self, model:LLMChat) -> None:
         for entry in tqdm(self.data, desc="Generating subquestions"):
             summarized_content = ""
@@ -154,17 +192,18 @@ class ImageDataset():
             entry["summarized"] = summarized_content
     
     
-    def question_answering(self, model:LLMChat) -> None:
+    def question_answering(self, model:LLMChat, savefile:str) -> None:
         for entry in tqdm(self.data, desc="Answering questions"):
-            answer = question_answering([entry["image_path"]], entry["question"], entry["summarized"], model)
+            answer = question_answering([entry["image_path"]], entry["question"], entry["summarization"], model)
             entry["mllm_answer"] = answer
+            self.save_json(savefile)
     
     
-    def debate(self, debator) -> None:
+    def debate(self, debator, savefile:str) -> None:
         for entry in tqdm(self.data, desc="Debate"):
-            final_answer = debator.run([entry["image_path"]], entry["question"], entry["mllm_answer"], entry["summarized"])
+            final_answer = debator.run([entry["image_path"]], entry["question"], entry["mllm_answer"], entry["summarization"])
             entry["final_answer"] = final_answer
-            self.save_json()
+            self.save_json(savefile)
     
     
     def get_dataset(self):
@@ -175,4 +214,4 @@ class ImageDataset():
         os.makedirs("save", exist_ok=True)
         with open(f"save/{filename}.json", 'w') as output_file:
             json.dump(self.data, output_file, indent=4)
-        print(f"Updated JSON file saved as {filename}")
+        # print(f"Updated JSON file saved as {filename}")

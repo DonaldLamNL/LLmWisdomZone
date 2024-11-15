@@ -38,7 +38,6 @@ class AzureChat(LLMChat):
         num_comps = num_comps if num_comps else self.DEFAULT_NUM_COMPLETIONS
         inputs = self.get_msg(messages)
         
-        write_records(inputs, title="INPUT")
         response = client.chat.completions.create(
             model=self.model_name,
             messages=inputs,

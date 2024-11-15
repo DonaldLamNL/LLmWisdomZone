@@ -1,9 +1,22 @@
 !<INPUT 1>! -- entity
 !<INPUT 2>! -- question-answer pairs
-
-<commentblockmarker>###</commentblockmarker>
+!<INPUT 3>! -- main question
+!<INPUT 4>! -- caption
 
 Please summarize the information for the "!<INPUT 1>!" in few words from the following question-answer pairs:
 !<INPUT 2>!
-
 Output the summarized content .
+
+<commentblockmarker>###</commentblockmarker>
+
+
+
+
+
+
+Given the main question: "!<INPUT 3>!" and the caption of the image: "!<INPUT 4>!".
+
+Based on the following subquestion and answer pairs from other agents:
+!<INPUT 2>!
+
+Summarize the information from these pairs, focusing on details that contribute to answering the main question. You may filter out any information that is irrelevant.

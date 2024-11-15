@@ -134,3 +134,5 @@ logs
 *.sh
 mmvet_data
 save
+*.zip
+*_data

@@ -34,11 +34,6 @@ class Message:
     
     
     def to_gemini_format(self):
-        gemini_role = {"system": "user", "assistant": "model"}.get(self.role, "user")
-        return { "role": gemini_role, "parts": [self.content]}
-    
-    
-    def to_gemini_format(self):
         if self.image_paths:
             images = [genai.upload_file(path=image_path) for image_path in self.image_paths]
             inputs = images + ["\n\n", self.content]
