@@ -26,7 +26,7 @@ class ImageDataset():
             self.data = json.load(file)
     
     
-    def entity_extraction(self, caption_model:LLMChat, savefile:str) -> None:
+    def entity_extraction(self, caption_model, save) -> None:
         for entry in tqdm(self.data, desc="Processing entries for entity extraction"):
             image_path = entry["image_path"]
             question = entry["question"]
@@ -35,7 +35,18 @@ class ImageDataset():
             entities = list(set(entities))
             entry["caption"] = caption
             entry["objects"] = {key: {} for key in entities}
+            self.save_json(save)
+    
+    
+    def new_generate_caption(self, caption_model:LLMChat, savefile:str) -> None:
+        for entry in tqdm(self.data, desc="Processing entries for entity extraction and caption generation"):
+            image_path = entry["image_path"]
+            question = entry["question"]
+            caption = generate_caption(caption_model, question, [image_path])
+            entry["caption"] = caption
+            entry["objects"] = {}
             self.save_json(savefile)
+            
     
     
     def object_detection(self) -> None:
@@ -120,7 +131,7 @@ class ImageDataset():
         for entry in tqdm(self.data, desc="Generating subquestions"):
             question = entry["question"]
             caption = entry["caption"]
-            entities = ", ".join(entry["objects"].keys())
+            entities = entry["objects"]
             subquestions = subquestion_generator(entities, question, caption, model)
             entry["subquestions"] = subquestions
             self.save_json(savefile)
@@ -132,7 +143,7 @@ class ImageDataset():
                 caption = entry["caption"]
                 question = subquestion["question"]
                 image_path = entry["image_path"]
-                entities = ", ".join(entry["objects"].keys())
+                entities = entry["objects"]
                 answer = subquestion_answering([image_path], caption, question, entities, model)
                 subquestion["answer"] = answer
                 self.save_json(savefile)
@@ -169,7 +180,7 @@ class ImageDataset():
         for entry in tqdm(self.data, desc="Summarizing subquestions"):
             question = entry["question"]
             caption = entry["caption"]
-            entities = ", ".join(entry["objects"].keys())
+            entities = entry["objects"]
             subquest_ans = [
                 f"Subquestion {i+1}: {subquestion['question']},\nanswer: {subquestion['answer']}"
                 for i, subquestion in enumerate(entry["subquestions"])

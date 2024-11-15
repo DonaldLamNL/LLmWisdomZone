@@ -40,14 +40,22 @@ def extract_content(content: str, key: str) -> str:
     return extracted_content[0] if extracted_content else None
 
 
-def generate_caption(model, image_paths):
-    inputs = [Message(role="user", content="Generate a short caption to describe the image.", image_paths=image_paths)]
+def extract_list_from_string(input_string: str):
+    match = re.search(r"\[.*?\]", input_string)
+    if match: return ast.literal_eval(match.group(0))
+    else: return None
+
+
+def generate_caption(model, question, image_paths):
+    content = f"Given the following question: \"{question}\" and the related image, generate a short caption to describe the image related to the question."
+    
+    inputs = [Message(role="user", content=content, image_paths=image_paths)]
     for i in range(MAX_RETRY):
         try:
             response = model.chat(inputs)
             return response
         except:
-            print(f"Generate sub-questions: Retry {i+1}")
+            print(f"Generate caption: Retry {i+1}")
 
 
 def subquestion_generator(entity: str, question: str, caption:str, model: LLMChat) -> List[dict]:
@@ -60,7 +68,7 @@ def subquestion_generator(entity: str, question: str, caption:str, model: LLMCha
     for i in range(MAX_RETRY):
         try:
             response = model.chat(inputs)
-            subquestions = response.lower().split("sub-questions:")[1].strip().split(", ")
+            subquestions = extract_list_from_string(response)
             return [{"question": question} for question in subquestions]
         except:
             print(f"Generate sub-questions: Retry {i+1}")
@@ -78,14 +86,13 @@ def subquestion_answering(image_paths:str, caption:str, question: str, entity: s
             response = model.chat(inputs)
             return response
         except:
-            print(f"Generate sub-questions: Retry {i+1}")
+            print(f"Answer sub-questions: Retry {i+1}")
 
 
-def summarization(entity:str, pairs:List[dict[str]], model: LLMChat) -> str:
-    information = "\n".join([f"{p['question']}\n{p['answer']}" for p in pairs])
+def summarization(entity:str, subquest_ans_info:List[dict[str]], question:str, caption:str, model: LLMChat) -> str:
     input_prompt = get_prompt_template(
         filepath="./prompt_templates/summarization.txt",
-        inputs=[entity, information]
+        inputs=[entity, subquest_ans_info, question, caption]
     )
     inputs = [Message(role="system", content=SYSTEM_PROMPT)]
     inputs.append(Message(role="user", content=input_prompt))
@@ -94,7 +101,7 @@ def summarization(entity:str, pairs:List[dict[str]], model: LLMChat) -> str:
             response = model.chat(inputs)
             return response
         except:
-            print(f"Generate sub-questions: Retry {i+1}")
+            print(f"Summarize sub-questions: Retry {i+1}")
 
 
 def question_answering(image_paths:str, question: str, information:str, model: LLMChat) -> List[dict]:
@@ -109,4 +116,4 @@ def question_answering(image_paths:str, question: str, information:str, model: L
             response = model.chat(inputs)
             return response
         except:
-            print(f"Generate sub-questions: Retry {i+1}")
+            print(f"Answer question: Retry {i+1}")

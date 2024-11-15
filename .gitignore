@@ -136,3 +136,4 @@ mmvet_data
 save
 *.zip
 *_data
+*.ipynb

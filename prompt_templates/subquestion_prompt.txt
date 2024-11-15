@@ -15,5 +15,7 @@ Given the main question: "!<INPUT 2>!" and the caption of the related image: "!<
 
 Your task is to decompose the main question into a list of sub-questions. Each sub-question should be easy and straightforward for the model to answer, closely connected to the image's content, and contribute towards answering the main question.
 
-Please format the output as follows and separate each sub-question by a comma:
-["sub-question 1", "sub-question 2", ...] (use ' instead of " in the sub-question)
+Please format the outputs in a list as follows and separate each sub-question by a comma: (use ' instead of " in the sub-question)
+```
+["sub-question 1", "sub-question 2", ...]
+```
