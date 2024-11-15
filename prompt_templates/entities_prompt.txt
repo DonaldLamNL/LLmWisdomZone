@@ -1,0 +1,17 @@
+!<INPUT 1>! -- main question
+!<INPUT 2>! -- image caption
+
+<commentblockmarker>###</commentblockmarker>
+
+There is the description of an image: "!<INPUT 2>!"
+Given the question that is related to the image: "!<INPUT 1>!"
+Please extract only the key entities from the provided question and caption that are directly relevant for generating subquestions and that could be identified by object detection models. Each entity should be directly usable to create meaningful subquestions to help break down the main question.
+
+For example:
+Image description: "A dog on the chair."
+Question: "What color is the cat near the sitting dog in the image?"
+Extracted entities: cat, dog, chair
+
+Avoid abstract terms, general nouns, or unnecessary detail.
+Ensure extracted entities are likely detectable by visual object detection systems, supporting decomposition of the main question.
+Output the list of extracted entities with the format Extracted entities: entity_1, entity_2, entity_3

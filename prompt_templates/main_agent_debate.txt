@@ -1,0 +1,19 @@
+!<INPUT 1>! -- main question
+!<INPUT 2>! -- summarized
+!<INPUT 3>! -- answer
+!<INPUT 4>! -- comments
+
+<commentblockmarker>###</commentblockmarker>
+
+Given the question: "!<INPUT 1>!" and the corresponding image.
+
+Given the inferred information from other agents:
+!<INPUT 2>!
+
+Your stand is "!<INPUT 3>!".
+
+Comments from other agents:
+!<INPUT 4>!
+
+Please consider the provided information and the comments from other agents.
+Consider the image, information and comments, output your final answer on this question.

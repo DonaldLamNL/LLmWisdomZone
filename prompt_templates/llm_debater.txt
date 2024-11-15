@@ -1,0 +1,16 @@
+!<INPUT 1>! -- main question
+!<INPUT 2>! -- summarized information
+!<INPUT 3>! -- agent's response
+
+Output the following aspects in JSON format: '{ "stand": "your stand on this problem", "reason": "the reason of the stand"}'
+<commentblockmarker>###</commentblockmarker>
+
+Given the main question: "!<INPUT 1>!".
+
+Given the inferred information from other agents:
+**!<INPUT 2>!**
+
+Agent's response: "**!<INPUT 3>!**".
+
+Using the previous inferences as context, evaluate the response from the agent.
+Output your stand and feedback.

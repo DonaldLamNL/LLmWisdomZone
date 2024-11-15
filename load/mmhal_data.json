@@ -1,0 +1,1410 @@
+[
+  {
+    "question_type": "attribute",
+    "question_topic": "outdoor",
+    "image_content": [
+      "Fire hydrant"
+    ],
+    "question": "What color is the fire hydrant cap in the picture?",
+    "gt_answer": "The color of the fire hydrant cap in the image is yellow.",
+    "image_id": "7206072054_c53d53b97d_o.jpg",
+    "image_path": "./mmhal_data/org_image/7206072054_c53d53b97d_o.jpg"
+  },
+  {
+    "question_type": "adversarial",
+    "question_topic": "outdoor",
+    "image_content": [
+      "Door",
+      "Building"
+    ],
+    "question": "Who is sitting on the bench?",
+    "gt_answer": "No one is sitting on the bench.",
+    "image_id": "7413067568_06a8d1eb64_o.jpg",
+    "image_path": "./mmhal_data/org_image/7413067568_06a8d1eb64_o.jpg"
+  },
+  {
+    "question_type": "comparison",
+    "question_topic": "outdoor",
+    "image_content": [
+      "Vase",
+      "Houseplant",
+      "Stool",
+      "Coffee table",
+      "Flower"
+    ],
+    "question": "Which wooden stool has a vase with red flower on it?",
+    "gt_answer": "The left wooden stool has a vase with a red flower on it.",
+    "image_id": "383965780_db4815011c_o.jpg",
+    "image_path": "./mmhal_data/org_image/383965780_db4815011c_o.jpg"
+  },
+  {
+    "question_type": "counting",
+    "question_topic": "outdoor",
+    "image_content": [
+      "Traffic light",
+      "Building",
+      "House",
+      "Street light",
+      "Tree"
+    ],
+    "question": "How many traffic lights are there in the image?",
+    "gt_answer": "There are four traffic lights in the image.",
+    "image_id": "16875241476_3b79e5d79b_o.jpg",
+    "image_path": "./mmhal_data/org_image/16875241476_3b79e5d79b_o.jpg"
+  },
+  {
+    "question_type": "relation",
+    "question_topic": "outdoor",
+    "image_content": [
+      "Traffic sign",
+      "Traffic light",
+      "Building"
+    ],
+    "question": "What colors are the traffic signs at the top, in the middle, and at the bottom?",
+    "gt_answer": "The traffic signs at the top and bottom are white, while the one in the center is blue.",
+    "image_id": "3576366805_eea15333d5_o.jpg",
+    "image_path": "./mmhal_data/org_image/3576366805_eea15333d5_o.jpg"
+  },
+  {
+    "question_type": "environment",
+    "question_topic": "outdoor",
+    "image_content": [
+      "Wheel"
+    ],
+    "question": "How would you describe the weather in the image?",
+    "gt_answer": "The photo was captured during nighttime, with a dark sky overhead. It depicts a Ferris wheel surrounded by people and illuminated by the lights.",
+    "image_id": "3788392512_2a3f537219_o.jpg",
+    "image_path": "./mmhal_data/org_image/3788392512_2a3f537219_o.jpg"
+  },
+  {
+    "question_type": "holistic",
+    "question_topic": "outdoor",
+    "image_content": [
+      "Building",
+      "Street light",
+      "Tree",
+      "Traffic sign",
+      "Window"
+    ],
+    "question": "Describe the image in detail.",
+    "gt_answer": "The picture depicts a city street, recently dampened by rain, with a sidewalk lined by trees. There are several cars parked on the right, while others move along the road. A few pedestrians can be seen at a distance on the sidewalk, some of them holding umbrellas to protect themselves from the rain. The trees offer shade and lend a touch of nature to the urban setting. The scene exudes a sense of calm and serenity, emphasized by the glistening wet street and the nearly vacant walkway.",
+    "image_id": "14388226720_c54b67588a_o.jpg",
+    "image_path": "./mmhal_data/org_image/14388226720_c54b67588a_o.jpg"
+  },
+  {
+    "question_type": "other",
+    "question_topic": "outdoor",
+    "image_content": [
+      "Parking meter",
+      "Telephone"
+    ],
+    "question": "How much is it per hour to park at the parking meter?",
+    "gt_answer": "It is $4 per hour to park at the parking meter.",
+    "image_id": "11715451803_24861529ab_o.jpg",
+    "image_path": "./mmhal_data/org_image/11715451803_24861529ab_o.jpg"
+  },
+  {
+    "question_type": "attribute",
+    "question_topic": "vehicle",
+    "image_content": [
+      "Car",
+      "Wheel",
+      "Land vehicle",
+      "Building"
+    ],
+    "question": "What color are the two cars from right to left in the image?",
+    "gt_answer": "The two cars from right to left in the image are black and blue.",
+    "image_id": "20076975362_949c5a1cdb_o.jpg",
+    "image_path": "./mmhal_data/org_image/20076975362_949c5a1cdb_o.jpg"
+  },
+  {
+    "question_type": "adversarial",
+    "question_topic": "vehicle",
+    "image_content": [
+      "Tire",
+      "Motorcycle",
+      "Wheel"
+    ],
+    "question": "What is the gender of the person riding the motorcycle in the image?",
+    "gt_answer": "No one is riding the motorcycle by the roadside in the image.",
+    "image_id": "3828840628_e625c9beb0_o.jpg",
+    "image_path": "./mmhal_data/org_image/3828840628_e625c9beb0_o.jpg"
+  },
+  {
+    "question_type": "comparison",
+    "question_topic": "vehicle",
+    "image_content": [
+      "Wheel",
+      "Building",
+      "Truck",
+      "Person",
+      "Auto part"
+    ],
+    "question": "In the image, which truck (left or right) has its door open?",
+    "gt_answer": "The fire truck, which is on the left side of the image, has its door open.",
+    "image_id": "1424845359_c4945d38f1_o.jpg",
+    "image_path": "./mmhal_data/org_image/1424845359_c4945d38f1_o.jpg"
+  },
+  {
+    "question_type": "counting",
+    "question_topic": "vehicle",
+    "image_content": [
+      "Tree",
+      "Plant",
+      "Person",
+      "Land vehicle",
+      "Bicycle helmet",
+      "Sports equipment",
+      "Bicycle",
+      "Vehicle",
+      "Mammal",
+      "Bicycle wheel"
+    ],
+    "question": "How many bicycles are there in the image?",
+    "gt_answer": "In the image, there are four bicycles: two at the front, one in the middle, and one in the distance.",
+    "image_id": "315943393_e2c5dc5bd7_o.jpg",
+    "image_path": "./mmhal_data/org_image/315943393_e2c5dc5bd7_o.jpg"
+  },
+  {
+    "question_type": "relation",
+    "question_topic": "vehicle",
+    "image_content": [
+      "Person",
+      "Mammal",
+      "Boat"
+    ],
+    "question": "How is the yellow boat positioned in relation to the white yacht in the image?",
+    "gt_answer": "The yellow boat is positioned in front of the white yacht in the image.",
+    "image_id": "5014730631_9c2701e063_o.jpg",
+    "image_path": "./mmhal_data/org_image/5014730631_9c2701e063_o.jpg"
+  },
+  {
+    "question_type": "environment",
+    "question_topic": "vehicle",
+    "image_content": [
+      "Train",
+      "Skyscraper",
+      "Car",
+      "Land vehicle",
+      "Plant",
+      "Vehicle",
+      "Wheel",
+      "Tree"
+    ],
+    "question": "What is the weather like in the image?",
+    "gt_answer": "In the image, the weather appears to be either sunny or cloudy.",
+    "image_id": "3430256574_ab887d1df5_o.jpg",
+    "image_path": "./mmhal_data/org_image/3430256574_ab887d1df5_o.jpg"
+  },
+  {
+    "question_type": "holistic",
+    "question_topic": "vehicle",
+    "image_content": [
+      "Wheel",
+      "Bus",
+      "Person",
+      "Auto part",
+      "Land vehicle"
+    ],
+    "question": "Describe the image in detail.",
+    "gt_answer": "The picture presents a yellow school bus stationed on an urban roadway, alongside a bicyclist. Positioned outside a tattoo establishment, the bus offers a unique urban backdrop. The road is notably calm, with the absence of other vehicles and passersby. The cyclist, equipped with a backpack and helmet, seems to be a student or a regular commuter. Given the tattoo parlor and the school bus, it's plausible that this area is a vibrant commercial or recreational hub frequented by shoppers, students, or those seeking leisure.",
+    "image_id": "4523458956_0b78c6b298_o.jpg",
+    "image_path": "./mmhal_data/org_image/4523458956_0b78c6b298_o.jpg"
+  },
+  {
+    "question_type": "other",
+    "question_topic": "vehicle",
+    "image_content": [
+      "Person",
+      "Fixed-wing aircraft"
+    ],
+    "question": "Which company owns the airplane displayed in the back of the image?",
+    "gt_answer": "The airplane in the background of the image is owned by Virgin Airlines.",
+    "image_id": "6555470659_4c69a30b73_o.jpg",
+    "image_path": "./mmhal_data/org_image/6555470659_4c69a30b73_o.jpg"
+  },
+  {
+    "question_type": "attribute",
+    "question_topic": "person",
+    "image_content": [
+      "Plant",
+      "Tree",
+      "Man",
+      "Sports equipment",
+      "Human arm"
+    ],
+    "question": "What are the colors of the shirts worn by the three men from left to right in the image?",
+    "gt_answer": "The three men from left to right in the image are wearing green, blue, and red shirts.",
+    "image_id": "14901778703_09a206232c_o.jpg",
+    "image_path": "./mmhal_data/org_image/14901778703_09a206232c_o.jpg"
+  },
+  {
+    "question_type": "adversarial",
+    "question_topic": "person",
+    "image_content": [
+      "Human head",
+      "Boy",
+      "Human ear",
+      "Human eye",
+      "Human mouth",
+      "Human face",
+      "Man",
+      "Human hair",
+      "Human body",
+      "Mammal",
+      "Human nose",
+      "Clothing"
+    ],
+    "question": "Which color are the glasses that the man in the image is wearing?",
+    "gt_answer": "The man is not wearing glasses.",
+    "image_id": "83372724_a17cceb078_o.jpg",
+    "image_path": "./mmhal_data/org_image/83372724_a17cceb078_o.jpg"
+  },
+  {
+    "question_type": "comparison",
+    "question_topic": "person",
+    "image_content": [
+      "Clothing",
+      "Human body",
+      "Person",
+      "Man",
+      "Mammal"
+    ],
+    "question": "Who in the picture is wearing trousers?",
+    "gt_answer": "The woman in the image wears the pants.",
+    "image_id": "9340455006_25a885f7ef_o.jpg",
+    "image_path": "./mmhal_data/org_image/9340455006_25a885f7ef_o.jpg"
+  },
+  {
+    "question_type": "counting",
+    "question_topic": "person",
+    "image_content": [
+      "Girl",
+      "Human head",
+      "Human hair",
+      "Mammal",
+      "Dog",
+      "Person",
+      "Human face"
+    ],
+    "question": "How many people are there in the image?",
+    "gt_answer": "There are four people in the image.",
+    "image_id": "16189396430_4dce91a9d7_o.jpg",
+    "image_path": "./mmhal_data/org_image/16189396430_4dce91a9d7_o.jpg"
+  },
+  {
+    "question_type": "relation",
+    "question_topic": "person",
+    "image_content": [
+      "Mammal",
+      "Human nose",
+      "Human mouth",
+      "Human face",
+      "Clothing",
+      "Poster",
+      "Person",
+      "Human hair"
+    ],
+    "question": "Where is the girl positioned among the three people in the image?",
+    "gt_answer": "The girl stands on the right among the three individuals in the image.",
+    "image_id": "2500640631_a4c9abd52c_o.jpg",
+    "image_path": "./mmhal_data/org_image/2500640631_a4c9abd52c_o.jpg"
+  },
+  {
+    "question_type": "environment",
+    "question_topic": "person",
+    "image_content": [
+      "Human face",
+      "Fashion accessory",
+      "Human arm",
+      "Human hair",
+      "Human head",
+      "Human leg",
+      "Man",
+      "Human mouth",
+      "Sunglasses",
+      "Human body",
+      "Swimwear",
+      "Boy",
+      "Goggles"
+    ],
+    "question": "Is the man in the picture indoors or outdoors?",
+    "gt_answer": "The man in the photo is outside, sitting on a boat with several oxygen tanks around him.",
+    "image_id": "4264709756_1eb0e9ab45_o.jpg",
+    "image_path": "./mmhal_data/org_image/4264709756_1eb0e9ab45_o.jpg"
+  },
+  {
+    "question_type": "holistic",
+    "question_topic": "person",
+    "image_content": [
+      "Window",
+      "Clothing",
+      "Person",
+      "Building"
+    ],
+    "question": "Describe the image in detail.",
+    "gt_answer": "The image captures a bustling street lined with various shops and an adjoining sidewalk. Several pedestrians are present, with two individuals notably passing a store with a green sign saying \"Hawkin's Bazaar\". At this store's entrance, a man stands, overseeing a spacious window display that houses diverse items, highlighted by a red and white sign. Interestingly, no trees or parked cars are present in the street. The mood is energetic, showcasing individuals engaged in their daily routines and shopping pursuits.",
+    "image_id": "4068897399_a729022693_o.jpg",
+    "image_path": "./mmhal_data/org_image/4068897399_a729022693_o.jpg"
+  },
+  {
+    "question_type": "other",
+    "question_topic": "person",
+    "image_content": [
+      "Person",
+      "Clothing",
+      "Sports equipment",
+      "Mammal",
+      "Footwear"
+    ],
+    "question": "What number is the fastest girl wearing in the picture?",
+    "gt_answer": "The fastest girl in the picture is wearing number 1097.",
+    "image_id": "8716117944_a272643aef_o.jpg",
+    "image_path": "./mmhal_data/org_image/8716117944_a272643aef_o.jpg"
+  },
+  {
+    "question_type": "attribute",
+    "question_topic": "animal",
+    "image_content": [
+      "Dog"
+    ],
+    "question": "What are the colors of the dogs from right to left?",
+    "gt_answer": "The colors of the two dogs from right to left are brown and black.",
+    "image_id": "10172500456_1f40b6bd38_o.jpg",
+    "image_path": "./mmhal_data/org_image/10172500456_1f40b6bd38_o.jpg"
+  },
+  {
+    "question_type": "adversarial",
+    "question_topic": "animal",
+    "image_content": [
+      "Animal",
+      "Bird"
+    ],
+    "question": "What is a vicuna standing in the sand looking at?",
+    "gt_answer": "There is no vicuna in the image.",
+    "image_id": "13789278495_8545acd44c_o.jpg",
+    "image_path": "./mmhal_data/org_image/13789278495_8545acd44c_o.jpg"
+  },
+  {
+    "question_type": "comparison",
+    "question_topic": "animal",
+    "image_content": [
+      "Mammal",
+      "Cat"
+    ],
+    "question": "Which cat (left, right or middle) in the image opens its mouth?",
+    "gt_answer": "The cat on the right side of the image opens its mouth.",
+    "image_id": "502006488_2d907443d8_o.jpg",
+    "image_path": "./mmhal_data/org_image/502006488_2d907443d8_o.jpg"
+  },
+  {
+    "question_type": "counting",
+    "question_topic": "animal",
+    "image_content": [
+      "Zebra",
+      "Plant"
+    ],
+    "question": "How many zebras are there in the image?",
+    "gt_answer": "There are six zebras in the image.",
+    "image_id": "5775946611_ef789718ed_o.jpg",
+    "image_path": "./mmhal_data/org_image/5775946611_ef789718ed_o.jpg"
+  },
+  {
+    "question_type": "relation",
+    "question_topic": "animal",
+    "image_content": [
+      "Plant",
+      "Sheep",
+      "Tree"
+    ],
+    "question": "Which sheep is in front of the other sheep?",
+    "gt_answer": "The sheep in front of the other sheep is a white sheep.",
+    "image_id": "965561501_0b7e9aed90_o.jpg",
+    "image_path": "./mmhal_data/org_image/965561501_0b7e9aed90_o.jpg"
+  },
+  {
+    "question_type": "environment",
+    "question_topic": "animal",
+    "image_content": [
+      "Footwear",
+      "Sports equipment",
+      "Clothing",
+      "Person",
+      "Helmet",
+      "Animal",
+      "Man",
+      "Human leg",
+      "Human body"
+    ],
+    "question": "How was the weather when this picture was captured?",
+    "gt_answer": "When this photo was taken, it was dark at night. This photo shows a horse race at night.",
+    "image_id": "2938079244_9e814f0e7a_o.jpg",
+    "image_path": "./mmhal_data/org_image/2938079244_9e814f0e7a_o.jpg"
+  },
+  {
+    "question_type": "holistic",
+    "question_topic": "animal",
+    "image_content": [
+      "Zebra",
+      "Tree",
+      "Mammal",
+      "Giraffe",
+      "Plant"
+    ],
+    "question": "Describe the image in detail.",
+    "gt_answer": "The image depicts three zebras and four giraffes on a sandy terrain, with trees in the background and a stone structure to the right. Surrounding the scene is fencing, suggesting a controlled environment like a zoo or nature reserve.",
+    "image_id": "363931462_37f0088f48_o.jpg",
+    "image_path": "./mmhal_data/org_image/363931462_37f0088f48_o.jpg"
+  },
+  {
+    "question_type": "other",
+    "question_topic": "animal",
+    "image_content": [
+      "Rhinoceros",
+      "Mammal"
+    ],
+    "question": "Out of the four animals, how many giraffes are there in the image?",
+    "gt_answer": "In the image, there are two rhinos, a giraffe, and a wild horse.",
+    "image_id": "4883309412_53b0b853d5_o.jpg",
+    "image_path": "./mmhal_data/org_image/4883309412_53b0b853d5_o.jpg"
+  },
+  {
+    "question_type": "attribute",
+    "question_topic": "food",
+    "image_content": [
+      "Fruit"
+    ],
+    "question": "Is the kiwi in the front fresh or dried?",
+    "gt_answer": "The kiwi in the front is dried. There are four dried pieces of kiwi in the front, and three fresh ones in the back.",
+    "image_id": "12521323285_97a94c8cbc_o.jpg",
+    "image_path": "./mmhal_data/org_image/12521323285_97a94c8cbc_o.jpg"
+  },
+  {
+    "question_type": "adversarial",
+    "question_topic": "food",
+    "image_content": [
+      "Dessert",
+      "Bread"
+    ],
+    "question": "Is the jam on the bread made of strawberry?",
+    "gt_answer": "In fact, this photo only shows a cut and toasted bread slice. There is no jam on it.",
+    "image_id": "18414801440_47f21894da_o.jpg",
+    "image_path": "./mmhal_data/org_image/18414801440_47f21894da_o.jpg"
+  },
+  {
+    "question_type": "comparison",
+    "question_topic": "food",
+    "image_content": [
+      "Vegetable",
+      "Tomato",
+      "Food"
+    ],
+    "question": "Compare the tomatoes in the photo.",
+    "gt_answer": "There are three tomatoes from the same vine in the photo. The tomato on the left side is red and ripe, while the two tomatoes in the middle and on the right side are yellow and unripe.",
+    "image_id": "5322693484_868ba39c68_o.jpg",
+    "image_path": "./mmhal_data/org_image/5322693484_868ba39c68_o.jpg"
+  },
+  {
+    "question_type": "counting",
+    "question_topic": "food",
+    "image_content": [
+      "Oyster",
+      "Food",
+      "Invertebrate",
+      "Animal",
+      "Seafood"
+    ],
+    "question": "How many oysters can you see in the photo?",
+    "gt_answer": "There are five oysters visible in the photo.",
+    "image_id": "2519330533_597840098a_o.jpg",
+    "image_path": "./mmhal_data/org_image/2519330533_597840098a_o.jpg"
+  },
+  {
+    "question_type": "relation",
+    "question_topic": "food",
+    "image_content": [
+      "Dessert",
+      "Baked goods",
+      "Broccoli",
+      "Fast food",
+      "Cookie"
+    ],
+    "question": "Is the bowl with broccoli on top of the bowl with meatballs?",
+    "gt_answer": "No, the bowl with broccoli is next to the bowl of meatballs.",
+    "image_id": "5757505875_8578d2fc37_o.jpg",
+    "image_path": "./mmhal_data/org_image/5757505875_8578d2fc37_o.jpg"
+  },
+  {
+    "question_type": "environment",
+    "question_topic": "food",
+    "image_content": [
+      "Snack",
+      "Clothing",
+      "Mammal",
+      "Person",
+      "Human body",
+      "Human hand",
+      "Fast food",
+      "Food",
+      "Man",
+      "Human arm",
+      "Woman",
+      "Seafood"
+    ],
+    "question": "Is this photo taken in a restaurant, a kitchen, or anywhere else?",
+    "gt_answer": "This photo is taken outdoors, likely on a beach, where a man is cooking on a grill.",
+    "image_id": "16685252757_e1c32c0e1f_o.jpg",
+    "image_path": "./mmhal_data/org_image/16685252757_e1c32c0e1f_o.jpg"
+  },
+  {
+    "question_type": "holistic",
+    "question_topic": "food",
+    "image_content": [
+      "Man",
+      "Food",
+      "Clothing",
+      "Vegetable"
+    ],
+    "question": "Describe the activities in this image.",
+    "gt_answer": "In this image we can see a man and two young girls preparing food. The man seems to be a chef with a suit but no hat. The two girls seem to be interns, wearing aprons with a \"BRITANNIA HOTEL\" logo. The man seems to be guiding the girls to prepare the food. In front of them, there is a table with food on it. From left to right, there is a metal bowl of vegetables on a red cutting board, and two plates of meat, possibly saussages.",
+    "image_id": "4722330374_2425fd36eb_o.jpg",
+    "image_path": "./mmhal_data/org_image/4722330374_2425fd36eb_o.jpg"
+  },
+  {
+    "question_type": "other",
+    "question_topic": "food",
+    "image_content": [
+      "Fast food",
+      "Clothing",
+      "Snack",
+      "Person",
+      "Food"
+    ],
+    "question": "From this photo, how much does each jerk chicken dumpling cost?",
+    "gt_answer": "Each jerk chicken dumpling costs 5 pounds.",
+    "image_id": "6097499605_d06c51eed9_o.jpg",
+    "image_path": "./mmhal_data/org_image/6097499605_d06c51eed9_o.jpg"
+  },
+  {
+    "question_type": "attribute",
+    "question_topic": "sports",
+    "image_content": [
+      "Sports equipment",
+      "Parachute"
+    ],
+    "question": "What are the colors of the parachutes in the sky?",
+    "gt_answer": "There are three parachutes in the sky. The one on the left is light green. The one on the top right is orange. The one on the bottom right is blue.",
+    "image_id": "6705513453_b025140503_o.jpg",
+    "image_path": "./mmhal_data/org_image/6705513453_b025140503_o.jpg"
+  },
+  {
+    "question_type": "adversarial",
+    "question_topic": "sports",
+    "image_content": [
+      "Tennis racket",
+      "Ball (Object)"
+    ],
+    "question": "Describe the person playing tennis in this photo.",
+    "gt_answer": "No, there is only a tennis racket and a ball on the ground. No one is playing tennis in this photo.",
+    "image_id": "8506072922_e7f6c6ca49_o.jpg",
+    "image_path": "./mmhal_data/org_image/8506072922_e7f6c6ca49_o.jpg"
+  },
+  {
+    "question_type": "comparison",
+    "question_topic": "sports",
+    "image_content": [
+      "Surfboard"
+    ],
+    "question": "Compare the two surfboards in the photo.",
+    "gt_answer": "The two surfboards have different looks. The surfboard on the top has a white and wood color with a simple design. The other one on the bottom is red, with a more complex white and black pattern in the front.",
+    "image_id": "4958794254_c3f9677682_o.jpg",
+    "image_path": "./mmhal_data/org_image/4958794254_c3f9677682_o.jpg"
+  },
+  {
+    "question_type": "counting",
+    "question_topic": "sports",
+    "image_content": [
+      "Horse",
+      "Person",
+      "Mammal",
+      "Tree"
+    ],
+    "question": "How many horses are there in the photo?",
+    "gt_answer": "There are three horses in the photo.",
+    "image_id": "2603285498_e8e6c82214_o.jpg",
+    "image_path": "./mmhal_data/org_image/2603285498_e8e6c82214_o.jpg"
+  },
+  {
+    "question_type": "relation",
+    "question_topic": "sports",
+    "image_content": [
+      "Ball (Object)",
+      "Furniture",
+      "Billiard table",
+      "Table"
+    ],
+    "question": "What is the color of the ball on the left?",
+    "gt_answer": "The color of the ball on the left is red or orange.",
+    "image_id": "4459982881_b378f81b6f_o.jpg",
+    "image_path": "./mmhal_data/org_image/4459982881_b378f81b6f_o.jpg"
+  },
+  {
+    "question_type": "environment",
+    "question_topic": "sports",
+    "image_content": [
+      "Person",
+      "Mammal",
+      "Sports equipment",
+      "Footwear",
+      "Helmet",
+      "Clothing"
+    ],
+    "question": "Is this photo taken indoors or outdoors?",
+    "gt_answer": "The photo is taken indoors, since there is a group of hockey players playing in an ice stadium.",
+    "image_id": "5483033051_fa3ecf0e0d_o.jpg",
+    "image_path": "./mmhal_data/org_image/5483033051_fa3ecf0e0d_o.jpg"
+  },
+  {
+    "question_type": "holistic",
+    "question_topic": "sports",
+    "image_content": [
+      "Human arm",
+      "Footwear",
+      "Football",
+      "Clothing",
+      "Man",
+      "Mammal",
+      "Human body",
+      "Sports equipment",
+      "Human hand"
+    ],
+    "question": "Describe the activity in this photo.",
+    "gt_answer": "In this photo, three players are playing soccer. The first player on the left wears a white and red uniform, and is controlling the ball. The other two players on the right side are from the other team. They wear blue and yellow uniforms. The player closer to the camera is competing with the first player to gain control of the ball, while the other player is at distance.",
+    "image_id": "13926846360_2449b5b12f_o.jpg",
+    "image_path": "./mmhal_data/org_image/13926846360_2449b5b12f_o.jpg"
+  },
+  {
+    "question_type": "other",
+    "question_topic": "sports",
+    "image_content": [
+      "Person",
+      "Footwear",
+      "Tennis racket",
+      "Sports equipment",
+      "Human arm",
+      "Ball (Object)"
+    ],
+    "question": "Which tournament is this tennis competition?",
+    "gt_answer": "From the text on the ground, this is the Indian Wells tournament.",
+    "image_id": "13407081714_0375f7b3e0_o.jpg",
+    "image_path": "./mmhal_data/org_image/13407081714_0375f7b3e0_o.jpg"
+  },
+  {
+    "question_type": "attribute",
+    "question_topic": "kitchen",
+    "image_content": [
+      "Home appliance",
+      "Cupboard",
+      "Cabinetry",
+      "Kitchen appliance",
+      "Countertop",
+      "Microwave oven",
+      "Furniture",
+      "Sink",
+      "Drawer",
+      "Refrigerator",
+      "House",
+      "Plumbing fixture"
+    ],
+    "question": "What color is the microwave?",
+    "gt_answer": "The microwave is mainly silver, with a black panel.",
+    "image_id": "12255073776_5f17d88d21_o.jpg",
+    "image_path": "./mmhal_data/org_image/12255073776_5f17d88d21_o.jpg"
+  },
+  {
+    "question_type": "adversarial",
+    "question_topic": "kitchen",
+    "image_content": [
+      "House",
+      "Cupboard",
+      "Kitchen & dining room table",
+      "Cabinetry",
+      "Home appliance",
+      "Table",
+      "Kitchen appliance",
+      "Chair",
+      "Window"
+    ],
+    "question": "How many people are eating in this kitchen?",
+    "gt_answer": "No one is eating in the kitchen. I can see a dining table and four chairs, but there are no people in the sitting there right now.",
+    "image_id": "1411998044_37c3c4a234_o.jpg",
+    "image_path": "./mmhal_data/org_image/1411998044_37c3c4a234_o.jpg"
+  },
+  {
+    "question_type": "comparison",
+    "question_topic": "kitchen",
+    "image_content": [
+      "Kitchen utensil",
+      "Fork",
+      "Spoon",
+      "Tableware",
+      "Toy",
+      "Person"
+    ],
+    "question": "Compare the utensils in the picture.",
+    "gt_answer": "The picture shows a set of three utensils in different views with a white background: A knive with a blue handle, a spoon with a yellow handle, and a red fork with a red handle. They are all made of metal and plastic handle.",
+    "image_id": "3018306107_51f8da54b3_o.jpg",
+    "image_path": "./mmhal_data/org_image/3018306107_51f8da54b3_o.jpg"
+  },
+  {
+    "question_type": "counting",
+    "question_topic": "kitchen",
+    "image_content": [
+      "Kitchen utensil",
+      "Fork",
+      "Tableware",
+      "Tool"
+    ],
+    "question": "How many forks can you see?",
+    "gt_answer": "There are two forks.",
+    "image_id": "6266717889_714dc304bd_o.jpg",
+    "image_path": "./mmhal_data/org_image/6266717889_714dc304bd_o.jpg"
+  },
+  {
+    "question_type": "relation",
+    "question_topic": "kitchen",
+    "image_content": [
+      "Coffee cup",
+      "Spoon",
+      "Mug",
+      "Tableware",
+      "Kitchen utensil"
+    ],
+    "question": "What are the objects from right to left?",
+    "gt_answer": "The objects from right to left are a lid, a spoon, and a coffee cup.",
+    "image_id": "4967650364_6b23e0e7de_o.jpg",
+    "image_path": "./mmhal_data/org_image/4967650364_6b23e0e7de_o.jpg"
+  },
+  {
+    "question_type": "environment",
+    "question_topic": "kitchen",
+    "image_content": [
+      "Sink",
+      "Gas stove",
+      "Shelf",
+      "Furniture",
+      "Drawer",
+      "Home appliance",
+      "Cabinetry",
+      "Table",
+      "Cupboard",
+      "Countertop",
+      "House",
+      "Chair"
+    ],
+    "question": "At what time is this photo taken?",
+    "gt_answer": "The photo is taken during the day.",
+    "image_id": "3020281858_2d84b7bab7_o.jpg",
+    "image_path": "./mmhal_data/org_image/3020281858_2d84b7bab7_o.jpg"
+  },
+  {
+    "question_type": "holistic",
+    "question_topic": "kitchen",
+    "image_content": [
+      "Kitchen & dining room table",
+      "Window",
+      "Chair"
+    ],
+    "question": "Describe this photo in detail.",
+    "gt_answer": "This photo features a wooden dining table with four wooden or metal chairs around it. On the table there are two coasters and two glass cups. The table is set on a wooden floor. Behind the table are the wall and two windows.",
+    "image_id": "4234666745_63e51cc909_o.jpg",
+    "image_path": "./mmhal_data/org_image/4234666745_63e51cc909_o.jpg"
+  },
+  {
+    "question_type": "other",
+    "question_topic": "kitchen",
+    "image_content": [
+      "Home appliance",
+      "Toaster",
+      "Oven",
+      "Furniture",
+      "Gas stove",
+      "Drawer",
+      "Cabinetry",
+      "Kitchen appliance"
+    ],
+    "question": "In the picture, which buttons should I use to control the stove above?",
+    "gt_answer": "There are 8 buttons in front of the stainless steel stove, two on the left and six on the right. Since there are also six stoves above, the buttons on the right should be associated with the stoves and used to control them. There is also a digital display to the left of the buttons that shows \"5:27\", which is possibly the current time.",
+    "image_id": "5997807974_708c7602a0_o.jpg",
+    "image_path": "./mmhal_data/org_image/5997807974_708c7602a0_o.jpg"
+  },
+  {
+    "question_type": "attribute",
+    "question_topic": "accessory",
+    "image_content": [
+      "Umbrella",
+      "Fashion accessory"
+    ],
+    "question": "What color is the umbrella?",
+    "gt_answer": "The umbrella is colorful, containing purple, yellow, teal, and orange.",
+    "image_id": "7962741614_51a3a8b874_o.jpg",
+    "image_path": "./mmhal_data/org_image/7962741614_51a3a8b874_o.jpg"
+  },
+  {
+    "question_type": "adversarial",
+    "question_topic": "accessory",
+    "image_content": [
+      "Glove",
+      "Clothing",
+      "Fashion accessory"
+    ],
+    "question": "Describe the hands wearing the gloves.",
+    "gt_answer": "Only a pair of black gloves can be observed in the image. There are no hands shown in the image.",
+    "image_id": "4093922675_0e2f451fe0_o.jpg",
+    "image_path": "./mmhal_data/org_image/4093922675_0e2f451fe0_o.jpg"
+  },
+  {
+    "question_type": "comparison",
+    "question_topic": "accessory",
+    "image_content": [
+      "Hiking equipment",
+      "Clothing",
+      "Backpack"
+    ],
+    "question": "Compare the two different views of the backpack.",
+    "gt_answer": "The image shows two different views of the same black backpack. On the left side, it shows the inside of the bag, containing a camera, two lenses an other accessories. On the right side, it shows the outside of the bag, and there is a \"Lowepro\" logo on it.",
+    "image_id": "12392564684_ffd19b5b55_o.jpg",
+    "image_path": "./mmhal_data/org_image/12392564684_ffd19b5b55_o.jpg"
+  },
+  {
+    "question_type": "counting",
+    "question_topic": "accessory",
+    "image_content": [
+      "Clothing",
+      "Hat"
+    ],
+    "question": "How many black hats are there in the image?",
+    "gt_answer": "There are five black hats in the image.",
+    "image_id": "6150182374_f0923ac4b0_o.jpg",
+    "image_path": "./mmhal_data/org_image/6150182374_f0923ac4b0_o.jpg"
+  },
+  {
+    "question_type": "relation",
+    "question_topic": "accessory",
+    "image_content": [
+      "Watch"
+    ],
+    "question": "Describe how the two watches are placed.",
+    "gt_answer": "There are two watches side by side in the photo. The black one is placed on top of and to the left of the red one.",
+    "image_id": "14424649263_69118d3a3b_o.jpg",
+    "image_path": "./mmhal_data/org_image/14424649263_69118d3a3b_o.jpg"
+  },
+  {
+    "question_type": "environment",
+    "question_topic": "accessory",
+    "image_content": [
+      "Footwear",
+      "Clothing"
+    ],
+    "question": "Is this photo taken indoors or outdoors?",
+    "gt_answer": "This photo shows a pair of green training shoes on a carpet, so this photo is taken indoors.",
+    "image_id": "7750080584_124d32aab3_o.jpg",
+    "image_path": "./mmhal_data/org_image/7750080584_124d32aab3_o.jpg"
+  },
+  {
+    "question_type": "holistic",
+    "question_topic": "accessory",
+    "image_content": [
+      "Man",
+      "Person",
+      "Clothing",
+      "Human hand",
+      "Human arm",
+      "Fashion accessory",
+      "Woman",
+      "Human body"
+    ],
+    "question": "Describe the details in this photo.",
+    "gt_answer": "In the photo, a woman's hand is holding a man's hand. The woman's hand is wearing a diamond wedding ring, while the man's hand is wearing a simple wedding band. It seems that the woman is in a white dress and the man is in a black suit, but only a part can be seen in this photo. The image is black and white, except the wedding ring and band. This photo is likely taken in a wedding.",
+    "image_id": "6333054847_854b033191_o.jpg",
+    "image_path": "./mmhal_data/org_image/6333054847_854b033191_o.jpg"
+  },
+  {
+    "question_type": "other",
+    "question_topic": "accessory",
+    "image_content": [
+      "Cowboy hat",
+      "Man",
+      "Human face",
+      "Clothing",
+      "Human nose",
+      "Fedora",
+      "Human head",
+      "Glasses",
+      "Beard",
+      "Goggles",
+      "Human mouth",
+      "Human body",
+      "Mammal",
+      "Sunglasses",
+      "Human hair"
+    ],
+    "question": "What can you see in the reflection from the sunglasses?",
+    "gt_answer": "A man wearing a top hat and a suit is wearing this pair of sunglasses. From the reflection in his sunglasses, I can vaguely see some people, but not the man himself.",
+    "image_id": "6209347220_846cc7f471_o.jpg",
+    "image_path": "./mmhal_data/org_image/6209347220_846cc7f471_o.jpg"
+  },
+  {
+    "question_type": "attribute",
+    "question_topic": "electronic",
+    "image_content": [
+      "Table"
+    ],
+    "question": "What is the color of the laptop?",
+    "gt_answer": "The color of the laptop is silver (or white). A black color sticker is on the laptop.",
+    "image_id": "4654958099_df8364a87f_o.jpg",
+    "image_path": "./mmhal_data/org_image/4654958099_df8364a87f_o.jpg"
+  },
+  {
+    "question_type": "adversarial",
+    "question_topic": "electronic",
+    "image_content": [
+      "Computer mouse"
+    ],
+    "question": "What is playing on the monitor?",
+    "gt_answer": "There is no monitor in the image.",
+    "image_id": "6406526537_1c876dded4_o.jpg",
+    "image_path": "./mmhal_data/org_image/6406526537_1c876dded4_o.jpg"
+  },
+  {
+    "question_type": "comparison",
+    "question_topic": "electronic",
+    "image_content": [
+      "Ipod",
+      "Mobile phone",
+      "Human hand",
+      "Telephone"
+    ],
+    "question": "Which electronic device is larger?",
+    "gt_answer": "The iPod touch on the left is larger than the iPod nano on the right.",
+    "image_id": "4548634745_977535091a_o.jpg",
+    "image_path": "./mmhal_data/org_image/4548634745_977535091a_o.jpg"
+  },
+  {
+    "question_type": "counting",
+    "question_topic": "electronic",
+    "image_content": [
+      "Person",
+      "Telephone",
+      "Human hand",
+      "Mobile phone"
+    ],
+    "question": "How many mobile phones are there in the image?",
+    "gt_answer": "There is one mobile phone in the image.",
+    "image_id": "3352759027_94cb468a1f_o.jpg",
+    "image_path": "./mmhal_data/org_image/3352759027_94cb468a1f_o.jpg"
+  },
+  {
+    "question_type": "relation",
+    "question_topic": "electronic",
+    "image_content": [
+      "Computer mouse"
+    ],
+    "question": "Is the mouse connected to a computer?",
+    "gt_answer": "No, the mouse is not connected to a computer.",
+    "image_id": "47604332_c306b496b5_o.jpg",
+    "image_path": "./mmhal_data/org_image/47604332_c306b496b5_o.jpg"
+  },
+  {
+    "question_type": "environment",
+    "question_topic": "electronic",
+    "image_content": [
+      "Mule"
+    ],
+    "question": "Where was the photo taken?",
+    "gt_answer": "The photo was taken outside with plants and mountains as surroundings.",
+    "image_id": "5393711070_4509c31205_o.jpg",
+    "image_path": "./mmhal_data/org_image/5393711070_4509c31205_o.jpg"
+  },
+  {
+    "question_type": "holistic",
+    "question_topic": "electronic",
+    "image_content": [
+      "Television",
+      "Person"
+    ],
+    "question": "Describe the image in detail.",
+    "gt_answer": "In this image, I see a book, a pen, and a television on a table. The TV screen shows a man wearing a tie and a suit speaking in a park.",
+    "image_id": "12673135324_0973fca7b2_o.jpg",
+    "image_path": "./mmhal_data/org_image/12673135324_0973fca7b2_o.jpg"
+  },
+  {
+    "question_type": "other",
+    "question_topic": "electronic",
+    "image_content": [
+      "Laptop",
+      "Computer keyboard"
+    ],
+    "question": "Is this a Macbook or Windows laptop?",
+    "gt_answer": "This is a Macbook, as indicated by the presence of the Apple logo on the keyboard.",
+    "image_id": "1172644431_3dabdd34b5_o.jpg",
+    "image_path": "./mmhal_data/org_image/1172644431_3dabdd34b5_o.jpg"
+  },
+  {
+    "question_type": "attribute",
+    "question_topic": "furniture",
+    "image_content": [
+      "Sofa bed",
+      "Loveseat",
+      "Studio couch",
+      "Bed",
+      "Pillow"
+    ],
+    "question": "What are the colors of the pillows from left to right?",
+    "gt_answer": "The colors of the pillows from left to right are white (or grey), yellow, and white (or grey).",
+    "image_id": "7818684444_d3de1dd27a_o.jpg",
+    "image_path": "./mmhal_data/org_image/7818684444_d3de1dd27a_o.jpg"
+  },
+  {
+    "question_type": "adversarial",
+    "question_topic": "furniture",
+    "image_content": [
+      "Window",
+      "House",
+      "Sofa bed",
+      "Studio couch",
+      "Bed"
+    ],
+    "question": "What is the color of the chair in the image?",
+    "gt_answer": "There is no chair in the image.",
+    "image_id": "2653797190_f42908d6e5_o.jpg",
+    "image_path": "./mmhal_data/org_image/2653797190_f42908d6e5_o.jpg"
+  },
+  {
+    "question_type": "comparison",
+    "question_topic": "furniture",
+    "image_content": [
+      "Pillow",
+      "Bed",
+      "Furniture",
+      "House",
+      "Building"
+    ],
+    "question": "Which pillow is closer to the camera?",
+    "gt_answer": "The pillow on the right side of the bed is closer to the camera.",
+    "image_id": "2236797328_6c02e4d416_o.jpg",
+    "image_path": "./mmhal_data/org_image/2236797328_6c02e4d416_o.jpg"
+  },
+  {
+    "question_type": "counting",
+    "question_topic": "furniture",
+    "image_content": [
+      "Coffee table",
+      "Furniture",
+      "Sofa bed",
+      "Table",
+      "Chair",
+      "House",
+      "Sports equipment",
+      "Window",
+      "Billiard table"
+    ],
+    "question": "How many chairs are there in the image?",
+    "gt_answer": "There are two chairs in the image.",
+    "image_id": "9421545611_004f98acc2_o.jpg",
+    "image_path": "./mmhal_data/org_image/9421545611_004f98acc2_o.jpg"
+  },
+  {
+    "question_type": "relation",
+    "question_topic": "furniture",
+    "image_content": [
+      "Pillow",
+      "Human arm",
+      "Human body"
+    ],
+    "question": "Which pillow is in front of the other pillows?",
+    "gt_answer": "There are three pillows. The gray pillow in the middle with the red \"paper\" handprint pattern is in front of the other pillows. The other two pillows are white and have a red \"scissors\" handprint pattern and a \"stone\" handprint pattern, respectively.",
+    "image_id": "8063845568_6b183760bc_o.jpg",
+    "image_path": "./mmhal_data/org_image/8063845568_6b183760bc_o.jpg"
+  },
+  {
+    "question_type": "environment",
+    "question_topic": "furniture",
+    "image_content": [
+      "Table",
+      "Furniture",
+      "Chair",
+      "Couch",
+      "House",
+      "Kitchen & dining room table",
+      "Fireplace"
+    ],
+    "question": "What was the weather like when this photo was taken?",
+    "gt_answer": "When this photo was taken, it was already night and the sky was dark.",
+    "image_id": "9536149248_661b279f89_o.jpg",
+    "image_path": "./mmhal_data/org_image/9536149248_661b279f89_o.jpg"
+  },
+  {
+    "question_type": "holistic",
+    "question_topic": "furniture",
+    "image_content": [
+      "Bed"
+    ],
+    "question": "Describe the image in detail.",
+    "gt_answer": "In this image we can see two deck beds with pillows on them and carpet on the floor. The Beds are mainly in the blue color and the pillows are yellow with blue strips.",
+    "image_id": "3859505368_6e432fbae2_o.jpg",
+    "image_path": "./mmhal_data/org_image/3859505368_6e432fbae2_o.jpg"
+  },
+  {
+    "question_type": "other",
+    "question_topic": "furniture",
+    "image_content": [
+      "Bathroom cabinet",
+      "Toilet paper",
+      "Bathroom accessory",
+      "Door",
+      "Toilet"
+    ],
+    "question": "Is the toilet paper used?",
+    "gt_answer": "The toilet paper has not been used because it was folded into a decorative shape.",
+    "image_id": "990306359_60994704df_o.jpg",
+    "image_path": "./mmhal_data/org_image/990306359_60994704df_o.jpg"
+  },
+  {
+    "question_type": "attribute",
+    "question_topic": "indoor",
+    "image_content": [
+      "Book"
+    ],
+    "question": "What color are these books?",
+    "gt_answer": "These books are red and white.",
+    "image_id": "2971924328_aeaf1258e0_o.jpg",
+    "image_path": "./mmhal_data/org_image/2971924328_aeaf1258e0_o.jpg"
+  },
+  {
+    "question_type": "adversarial",
+    "question_topic": "indoor",
+    "image_content": [
+      "Tableware",
+      "Bowl",
+      "Vase",
+      "Flowerpot"
+    ],
+    "question": "What is in the vase?",
+    "gt_answer": "Nothing is in the vase.",
+    "image_id": "4208064606_58b6907c83_o.jpg",
+    "image_path": "./mmhal_data/org_image/4208064606_58b6907c83_o.jpg"
+  },
+  {
+    "question_type": "comparison",
+    "question_topic": "indoor",
+    "image_content": [
+      "Vase"
+    ],
+    "question": "Which vase looks larger?",
+    "gt_answer": "The vase on the right appears larger. Both vases are white with blue and red flowers delicately painted on them.",
+    "image_id": "9040237050_b0af7bbf73_o.jpg",
+    "image_path": "./mmhal_data/org_image/9040237050_b0af7bbf73_o.jpg"
+  },
+  {
+    "question_type": "counting",
+    "question_topic": "indoor",
+    "image_content": [
+      "Tree",
+      "Teddy bear",
+      "Plant",
+      "Mammal",
+      "Christmas tree"
+    ],
+    "question": "How many teddy bears are on the stairs?",
+    "gt_answer": "There are six teddy bears on the stairs.",
+    "image_id": "4219489460_4447e9da03_o.jpg",
+    "image_path": "./mmhal_data/org_image/4219489460_4447e9da03_o.jpg"
+  },
+  {
+    "question_type": "relation",
+    "question_topic": "indoor",
+    "image_content": [
+      "Flower",
+      "Houseplant",
+      "Flowerpot",
+      "Table",
+      "Building"
+    ],
+    "question": "Which color flowers are on top, and which color flowers are on the bottom?",
+    "gt_answer": "The blue flowers are on top, and the white flowers are on the bottom.",
+    "image_id": "9899405365_e2df3063b2_o.jpg",
+    "image_path": "./mmhal_data/org_image/9899405365_e2df3063b2_o.jpg"
+  },
+  {
+    "question_type": "environment",
+    "question_topic": "indoor",
+    "image_content": [
+      "Person",
+      "Chair",
+      "Window",
+      "Clothing",
+      "Table",
+      "Building",
+      "House",
+      "Furniture"
+    ],
+    "question": "What was the weather like when this photo was taken?",
+    "gt_answer": "When this photo was taken, it was already night and the sky was dark.",
+    "image_id": "7014520149_78feda0bef_o.jpg",
+    "image_path": "./mmhal_data/org_image/7014520149_78feda0bef_o.jpg"
+  },
+  {
+    "question_type": "holistic",
+    "question_topic": "indoor",
+    "image_content": [
+      "Human arm",
+      "Human body",
+      "Infant bed",
+      "Human leg",
+      "Person",
+      "Human nose",
+      "Clothing",
+      "Furniture",
+      "Human ear",
+      "Human eye",
+      "Human face",
+      "Human mouth",
+      "Human head",
+      "Boy",
+      "Human hair",
+      "Animal",
+      "Mammal",
+      "Teddy bear"
+    ],
+    "question": "Describe the image in detail.",
+    "gt_answer": "The image features a baby lying in a crib, which is placed in a room with a white background. The baby is wearing a diaper and is sleeping soundly. There are three stuffed animals hanging above the crib, providing a cozy and comforting atmosphere for the baby.",
+    "image_id": "489474293_a1e7bea6bc_o.jpg",
+    "image_path": "./mmhal_data/org_image/489474293_a1e7bea6bc_o.jpg"
+  },
+  {
+    "question_type": "other",
+    "question_topic": "indoor",
+    "image_content": [
+      "Book"
+    ],
+    "question": "What is the name of the book?",
+    "gt_answer": "The name of the book is \"Proverbial Philosophy.\"",
+    "image_id": "9019477149_f7d04cdb65_o.jpg",
+    "image_path": "./mmhal_data/org_image/9019477149_f7d04cdb65_o.jpg"
+  },
+  {
+    "question_type": "attribute",
+    "question_topic": "appliance",
+    "image_content": [
+      "Fruit"
+    ],
+    "question": "What is the color of the pot?",
+    "gt_answer": "The color of the pot is silver, with red cherries inside.",
+    "image_id": "4272595396_785d273725_o.jpg",
+    "image_path": "./mmhal_data/org_image/4272595396_785d273725_o.jpg"
+  },
+  {
+    "question_type": "adversarial",
+    "question_topic": "appliance",
+    "image_content": [
+      "Bathroom accessory",
+      "Personal care",
+      "Sink",
+      "Tap"
+    ],
+    "question": "What is being washed in the sink?",
+    "gt_answer": "Nothing is being washed in the sink.",
+    "image_id": "689823158_b0bff45e0f_o.jpg",
+    "image_path": "./mmhal_data/org_image/689823158_b0bff45e0f_o.jpg"
+  },
+  {
+    "question_type": "comparison",
+    "question_topic": "appliance",
+    "image_content": [
+      "Kitchen appliance",
+      "Washing machine",
+      "Refrigerator"
+    ],
+    "question": "Which washing machine is taller?",
+    "gt_answer": "The right washing machine with the top load design is taller. Both are white in color.",
+    "image_id": "8431126135_cd1cf303e7_o.jpg",
+    "image_path": "./mmhal_data/org_image/8431126135_cd1cf303e7_o.jpg"
+  },
+  {
+    "question_type": "counting",
+    "question_topic": "appliance",
+    "image_content": [
+      "Turkey",
+      "Bird",
+      "Animal",
+      "Baked goods"
+    ],
+    "question": "How many chickens are cooked?",
+    "gt_answer": "There is one cooked chicken in the image.",
+    "image_id": "6599551311_4afa756cf7_o.jpg",
+    "image_path": "./mmhal_data/org_image/6599551311_4afa756cf7_o.jpg"
+  },
+  {
+    "question_type": "relation",
+    "question_topic": "appliance",
+    "image_content": [
+      "Toilet paper",
+      "Bathroom accessory"
+    ],
+    "question": "What is placed on the tissue paper roll?",
+    "gt_answer": "A screwdriver is placed on the tissue paper roll.",
+    "image_id": "58465322_592ff01d31_o.jpg",
+    "image_path": "./mmhal_data/org_image/58465322_592ff01d31_o.jpg"
+  },
+  {
+    "question_type": "environment",
+    "question_topic": "appliance",
+    "image_content": [
+      "Countertop",
+      "Tap",
+      "Kitchen appliance",
+      "Window",
+      "Oven",
+      "House",
+      "Microwave oven",
+      "Cabinetry",
+      "Home appliance",
+      "Plumbing fixture",
+      "Sink"
+    ],
+    "question": "What time was the photo taken?",
+    "gt_answer": "The photo was taken at daytime.",
+    "image_id": "16269340471_154a27d9df_o.jpg",
+    "image_path": "./mmhal_data/org_image/16269340471_154a27d9df_o.jpg"
+  },
+  {
+    "question_type": "holistic",
+    "question_topic": "appliance",
+    "image_content": [
+      "Food"
+    ],
+    "question": "Describe the image in detail.",
+    "gt_answer": "In this image, I can see food items (likely Baozi or buns) on papers and a tong kept on a metal stand in an oven and I can see steam on the glass. There are nine of them, arranged into a 3 x 3 grid.",
+    "image_id": "3045172470_2e407f3602_o.jpg",
+    "image_path": "./mmhal_data/org_image/3045172470_2e407f3602_o.jpg"
+  },
+  {
+    "question_type": "other",
+    "question_topic": "appliance",
+    "image_content": [
+      "Bathroom accessory",
+      "Washing machine",
+      "Drawer",
+      "Furniture",
+      "Bathroom cabinet",
+      "Cabinetry",
+      "Sink",
+      "Plumbing fixture"
+    ],
+    "question": "What is shown in the mirror?",
+    "gt_answer": "The mirrow shows the reflection of the washing machine.",
+    "image_id": "5164137805_a2499e3ca9_o.jpg",
+    "image_path": "./mmhal_data/org_image/5164137805_a2499e3ca9_o.jpg"
+  }
+]

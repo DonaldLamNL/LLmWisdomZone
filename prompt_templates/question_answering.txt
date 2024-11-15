@@ -1,0 +1,11 @@
+!<INPUT 1>! -- question
+!<INPUT 2>! -- information
+
+<commentblockmarker>###</commentblockmarker>
+
+Given the question: "!<INPUT 1>!" and the corresponding image.
+
+Given the inferred information from other agents:
+!<INPUT 2>!
+
+Please answer the question.

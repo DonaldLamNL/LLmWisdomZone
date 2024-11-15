@@ -1,0 +1,10 @@
+!<INPUT 1>! -- target object
+!<INPUT 2>! -- main question
+!<INPUT 3>! -- caption
+
+<commentblockmarker>###</commentblockmarker>
+
+Given the entity "!<INPUT 1>!" and the main question "!<INPUT 2>!", generate a list of sub-questions that focus on observable details from an image containing the entity "!<INPUT 1>!".
+Each sub-question should aim to extract specific, critical, and relevant information based on provided main question and observation of the image. Avoid broad or abstract questions that go beyond what can be directly inferred from the image.
+Output few sub-questions with the format as follows, please separate the sub-question by comma:
+Sub-questions: "sub-question 1", "sub-question 2", ...

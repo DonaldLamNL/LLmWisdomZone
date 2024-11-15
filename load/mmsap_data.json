@@ -1,0 +1,3202 @@
+[
+    {
+      "question": "What kind of silverware is shown? Please choose the correct answer from the following options: 0. chopsticks, 1. fork, 2. Sorry, I can't help with it, 3. knife, 4. spoon",
+      "q_id": "p3q_00001",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00001.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00001.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "How many types of fruits are in the picture? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. 7, 2. 3, 3. 2, 4. 5",
+      "q_id": "p3q_00002",
+      "q_type": "Counting",
+      "image_id": "p1img_00002.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00002.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What time is it on the clock? Please choose the correct answer from the following options: 0. 8:45, 1. 7:30, 2. Sorry, I can't help with it, 3. 9:55, 4. 10:10",
+      "q_id": "p3q_00003",
+      "q_type": "Other",
+      "image_id": "p1img_00003.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00003.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "How many blue bottles on the table? Please choose the correct answer from the following options: 0. 4, 1. 3, 2. Sorry, I can't help with it, 3. 2, 4. 1",
+      "q_id": "p3q_00004",
+      "q_type": "Counting",
+      "image_id": "p1img_00004.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00004.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What kind of animal is this? Please choose the correct answer from the following options: 0. Dolphin, 1. Kangaroo, 2. Giraffe, 3. cow, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00005",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00005.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00005.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What color is the umbrella? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. blue, 2. yellow, 3. red, 4. green",
+      "q_id": "p3q_00006",
+      "q_type": "Color",
+      "image_id": "p1img_00006.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00006.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "On what kind of surface is this painted? Please choose the correct answer from the following options: 0. canvas, 1. watercolor paper, 2. wood panel, 3. concrete, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00007",
+      "q_type": "Other",
+      "image_id": "p1img_00007.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00007.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What color is the small circle light on the TV? Please choose the correct answer from the following options: 0. white, 1. Sorry, I can't help with it, 2. green, 3. blue, 4. red",
+      "q_id": "p3q_00008",
+      "q_type": "Color",
+      "image_id": "p1img_00008.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00008.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "How many white pillows are there on the sofa in the picture? Please choose the correct answer from the following options: 0. There are two white pillows., 1. There are four white pillows., 2. There are three white pillows., 3. Sorry, I can't help with it, 4. There is only one white pillow.",
+      "q_id": "p3q_00009",
+      "q_type": "Counting",
+      "image_id": "p1img_00009.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00009.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What colors make up the hydrant? Please choose the correct answer from the following options: 0. blue and green, 1. red and white, 2. silver and orange, 3. Sorry, I can't help with it, 4. black and yellow",
+      "q_id": "p3q_00010",
+      "q_type": "Color",
+      "image_id": "p1img_00010.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00010.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "How many tusk can be seen? Please choose the correct answer from the following options: 0. 4., 1. Sorry, I can't help with it, 2. 3., 3. 2., 4. 1",
+      "q_id": "p3q_00011",
+      "q_type": "Counting",
+      "image_id": "p1img_00011.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00011.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "Could you clarify how many chairs are on the right side of the table? Please choose the correct answer from the following options: 0. 3, 1. 2, 2. 1, 3. Sorry, I can't help with it, 4. 4",
+      "q_id": "p3q_00012",
+      "q_type": "Counting",
+      "image_id": "p1img_00012.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00012.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "How many lit computer monitors in the picture? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. There are nine lit computer monitors on the picture., 2. There are seven lit computer monitors on the picture., 3. There are eight lit computer monitors on the picture., 4. There are four lit computer monitors on the picture.",
+      "q_id": "p3q_00013",
+      "q_type": "Counting",
+      "image_id": "p1img_00013.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00013.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "How many forks are on the plate in the upper left? Please choose the correct answer from the following options: 0. 4, 1. 3, 2. Sorry, I can't help with it, 3. 2, 4. 5",
+      "q_id": "p3q_00014",
+      "q_type": "Counting",
+      "image_id": "p1img_00014.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00014.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What is the food in the basket? Please choose the correct answer from the following options: 0. sandwiches, 1. cheese, 2. Sorry, I can't help with it, 3. bread, 4. apples",
+      "q_id": "p3q_00015",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00015.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00015.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What color is the coat of the man sitting on the chair on the shore? Please choose the correct answer from the following options: 0. It is blue., 1. It is black., 2. It is grey., 3. It is brown., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00016",
+      "q_type": "Action",
+      "image_id": "p1img_00016.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00016.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "How many exhausts does the black car closest to the camera have? Please choose the correct answer from the following options: 0. 2, 1. 3, 2. Sorry, I can't help with it, 3. 1, 4. 4",
+      "q_id": "p3q_00017",
+      "q_type": "Counting",
+      "image_id": "p1img_00017.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00017.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "How many different colors are there on the keyboard? Please choose the correct answer from the following options: 0. 3, 1. 4, 2. 2, 3. Sorry, I can't help with it, 4. 1",
+      "q_id": "p3q_00018",
+      "q_type": "Counting",
+      "image_id": "p1img_00018.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00018.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What is hanging in the ceiling? Please choose the correct answer from the following options: 0. Light fixture, 1. Smoke detector, 2. Sorry, I can't help with it, 3. fan, 4. Chandelier",
+      "q_id": "p3q_00019",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00019.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00019.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What room is this? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. bathroom, 2. living room, 3. bedroom, 4. kitchen",
+      "q_id": "p3q_00020",
+      "q_type": "Other",
+      "image_id": "p1img_00020.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00020.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What is the name of the business on the black sign? Please choose the correct answer from the following options: 0. studio 11, 1. Sorry, I can't help with it, 2. RASANS, 3. Design House 8, 4. Gallery 21",
+      "q_id": "p3q_00021",
+      "q_type": "Ocr",
+      "image_id": "p1img_00021.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00021.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "How many tables can you see in the image? Please choose the correct answer from the following options: 0. 4, 1. 2, 2. 1, 3. Sorry, I can't help with it, 4. 3",
+      "q_id": "p3q_00022",
+      "q_type": "Counting",
+      "image_id": "p1img_00022.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00022.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What is the color of the car which is closest to the person in the image? Please choose the correct answer from the following options: 0. White., 1. Black., 2. Silver., 3. Red., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00023",
+      "q_type": "Color",
+      "image_id": "p1img_00023.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00023.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What color is the keyboard on the computer case? Please choose the correct answer from the following options: 0. White, 1. Sorry, I can't help with it, 2. Light-pink, 3. Grey, 4. Black",
+      "q_id": "p3q_00024",
+      "q_type": "Color",
+      "image_id": "p1img_00024.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00024.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What brand is being advertised in the background? Please choose the correct answer from the following options: 0. Goldman Sachs, 1. Sorry, I can't help with it, 2. Wells Fargo, 3. Bank of America, 4. jp morgan",
+      "q_id": "p3q_00025",
+      "q_type": "Ocr",
+      "image_id": "p1img_00025.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00025.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What does the sign above the red sign say? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. \"ONE WAY?, 2. \"STOP\"?, 3. \"DO NOT ENTER\"?, 4. \"WAIT\"?",
+      "q_id": "p3q_00026",
+      "q_type": "Ocr",
+      "image_id": "p1img_00026.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00026.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What are the shape of the windows on the third floor of the building in the image? Please choose the correct answer from the following options: 0. Triangular., 1. Sorry, I can't help with it, 2. Circular., 3. Arched., 4. Rectangular.",
+      "q_id": "p3q_00027",
+      "q_type": "size",
+      "image_id": "p1img_00027.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00027.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What kind of vehicles are these? Please choose the correct answer from the following options: 0. motorcycles, 1. Sailboats, 2. Pickup trucks, 3. Sorry, I can't help with it, 4. Sedans",
+      "q_id": "p3q_00028",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00028.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00028.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What color shirt is the pitcher wearing? Please choose the correct answer from the following options: 0. purple and orange, 1. blue and white, 2. green and yellow, 3. red and black, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00029",
+      "q_type": "Color",
+      "image_id": "p1img_00029.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00029.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "How many cars? Please choose the correct answer from the following options: 0. 12, 1. 5, 2. Sorry, I can't help with it, 3. 8, 4. 10",
+      "q_id": "p3q_00030",
+      "q_type": "Counting",
+      "image_id": "p1img_00030.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00030.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "In the picture, how many women wearing black tops can you see? Please choose the correct answer from the following options: 0. There is one woman wearing black tops in the picture., 1. There are two woman wearing black tops in the picture., 2. There are three woman in a black top in the picture., 3. There are more than three women wearing black tops in the picture., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00031",
+      "q_type": "Counting",
+      "image_id": "p1img_00031.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00031.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "How many plates are there? Please choose the correct answer from the following options: 0. 2, 1. 8., 2. 3., 3. Sorry, I can't help with it, 4. 5.",
+      "q_id": "p3q_00032",
+      "q_type": "Counting",
+      "image_id": "p1img_00032.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00032.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What is written on the sign above the yellow sign? Please choose the correct answer from the following options: 0. DO NOT ENTER., 1. HIGHLAND., 2. NO OUTLET., 3. STOP., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00033",
+      "q_type": "Ocr",
+      "image_id": "p1img_00033.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00033.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "Where is the boy looking? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. at a bird, 2. at the sky, 3. at frisbee, 4. at a kite",
+      "q_id": "p3q_00034",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00034.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00034.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "How many dogs are in the picture? Please choose the correct answer from the following options: 0. 2, 1. Sorry, I can't help with it, 2. 4, 3. 1, 4. 0",
+      "q_id": "p3q_00035",
+      "q_type": "Counting",
+      "image_id": "p1img_00035.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00035.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What color of bag is the person carrying who is crossing the road at the front? Please choose the correct answer from the following options: 0. The person is carrying a pink bag who is crossing the road at the front., 1. The person is carrying a black bag who is crossing the road at the front., 2. The person is carrying a dark blue bag who is crossing the road at the front., 3. Sorry, I can't help with it, 4. The person is carrying a red bag who is crossing the road at the front.",
+      "q_id": "p3q_00036",
+      "q_type": "Color",
+      "image_id": "p1img_00036.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00036.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What is the wall made of? Please choose the correct answer from the following options: 0. reinforced concrete, 1. Sorry, I can't help with it, 2. wood paneling, 3. stucco, 4. brick",
+      "q_id": "p3q_00037",
+      "q_type": "Other",
+      "image_id": "p1img_00037.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00037.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "How many children are there? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. 4, 2. 3, 3. 5, 4. 2",
+      "q_id": "p3q_00038",
+      "q_type": "Counting",
+      "image_id": "p1img_00038.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00038.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What color is the helmet of the person closest to the truck? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. Black., 2. Deep blue., 3. White., 4. Yellow.",
+      "q_id": "p3q_00039",
+      "q_type": "Color",
+      "image_id": "p1img_00039.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00039.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "How many people can be seen? Please choose the correct answer from the following options: 0. 6, 1. 5., 2. 3., 3. 8., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00040",
+      "q_type": "Counting",
+      "image_id": "p1img_00040.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00040.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What color is the stop sign? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. Yellow, 2. Blue, 3. Green, 4. red",
+      "q_id": "p3q_00041",
+      "q_type": "Color",
+      "image_id": "p1img_00041.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00041.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What is the kitten sitting in? Please choose the correct answer from the following options: 0. living room, 1. Sorry, I can't help with it, 2. kitchen, 3. bathroom, 4. garden",
+      "q_id": "p3q_00042",
+      "q_type": "Position",
+      "image_id": "p1img_00042.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00042.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What is this person riding on? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. surfboard, 2. paddleboard, 3. skateboard, 4. snowboard",
+      "q_id": "p3q_00043",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00043.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00043.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What is the cow eating? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. apples, 2. grass, 3. hay, 4. corn",
+      "q_id": "p3q_00044",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00044.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00044.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What animal is in the picture? Please choose the correct answer from the following options: 0. Horse, 1. Sorry, I can't help with it, 2. Sheep, 3. Goat, 4. cow",
+      "q_id": "p3q_00045",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00045.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00045.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What time is it? Please choose the correct answer from the following options: 0. 7:00, 1. Sorry, I can't help with it, 2. 11:15, 3. 4:45, 4. 2:30",
+      "q_id": "p3q_00046",
+      "q_type": "Other",
+      "image_id": "p1img_00046.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00046.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What color is the vase? Please choose the correct answer from the following options: 0. yellow, 1. Sorry, I can't help with it, 2. green, 3. red, 4. blue",
+      "q_id": "p3q_00047",
+      "q_type": "Color",
+      "image_id": "p1img_00047.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00047.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What is the shape of the window closest to the clock on the red building? Please choose the correct answer from the following options: 0. The window is arched., 1. The window is circular., 2. The window is triangular., 3. Sorry, I can't help with it, 4. The window is rectangular.",
+      "q_id": "p3q_00048",
+      "q_type": "shape",
+      "image_id": "p1img_00048.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00048.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What company is this plane from? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. fedex, 2. Emirates Cargo, 3. DHL, 4. UPS",
+      "q_id": "p3q_00049",
+      "q_type": "Ocr",
+      "image_id": "p1img_00049.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00049.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What color are the tables? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. green, 2. red, 3. white, 4. black",
+      "q_id": "p3q_00050",
+      "q_type": "Color",
+      "image_id": "p1img_00050.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00050.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "How many dogs are in the picture? Please choose the correct answer from the following options: 0. 1, 1. Sorry, I can't help with it, 2. 4., 3. 2., 4. 3.",
+      "q_id": "p3q_00051",
+      "q_type": "Counting",
+      "image_id": "p1img_00051.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00051.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What object is present in the picture? Please choose the correct answer from the following options: 0. woman with pink pants, 1. Sorry, I can't help with it, 2. bell tower, 3. Yellow taxi, 4. bicycle",
+      "q_id": "p3q_00052",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00052.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00052.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What is the shape of the first-floor window in the building furthest from the camera? Please choose the correct answer from the following options: 0. arch, 1. Sorry, I can't help with it, 2. diamond, 3. square, 4. rectangle",
+      "q_id": "p3q_00053",
+      "q_type": "shape",
+      "image_id": "p1img_00053.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00053.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "Which game is the dog doing? Please choose the correct answer from the following options: 0. kite, 1. Sorry, I can't help with it, 2. chasing its tail, 3. digging a hole, 4. playing fetch",
+      "q_id": "p3q_00054",
+      "q_type": "Action",
+      "image_id": "p1img_00054.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00054.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What animal is sitting on the beach? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. crab, 2. seagull, 3. dolphin, 4. turtle",
+      "q_id": "p3q_00055",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00055.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00055.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "How many wine glasses are in the photo? Please choose the correct answer from the following options: 0. 4., 1. Sorry, I can't help with it, 2. 3., 3. 2, 4. 6.",
+      "q_id": "p3q_00056",
+      "q_type": "Counting",
+      "image_id": "p1img_00056.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00056.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What is the crane doing? Please choose the correct answer from the following options: 0. lifting, 1. painting, 2. Sorry, I can't help with it, 3. running, 4. digging",
+      "q_id": "p3q_00057",
+      "q_type": "Action",
+      "image_id": "p1img_00057.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00057.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "How many men are there? Please choose the correct answer from the following options: 0. 5., 1. Sorry, I can't help with it, 2. 4., 3. 3., 4. 2",
+      "q_id": "p3q_00058",
+      "q_type": "Counting",
+      "image_id": "p1img_00058.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00058.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "In the picture, what word is written in white letters on the back of the black car? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. The word is \"NISSAS\"., 2. The word is \"NISSAN\"., 3. The word is \"7947 AW\"., 4. The word is \"SISSAN\".",
+      "q_id": "p3q_00059",
+      "q_type": "Ocr",
+      "image_id": "p1img_00059.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00059.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "Where are these kids? Please choose the correct answer from the following options: 0. swimming pool, 1. classroom, 2. library, 3. Sorry, I can't help with it, 4. skate park",
+      "q_id": "p3q_00060",
+      "q_type": "Position",
+      "image_id": "p1img_00060.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00060.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "How much silverware can you see? Please choose the correct answer from the following options: 0. 8, 1. 2, 2. 6, 3. Sorry, I can't help with it, 4. 4",
+      "q_id": "p3q_00061",
+      "q_type": "Counting",
+      "image_id": "p1img_00061.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00061.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What is the door made of? Please choose the correct answer from the following options: 0. plastic, 1. glass, 2. metal, 3. wood, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00062",
+      "q_type": "Other",
+      "image_id": "p1img_00062.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00062.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "How many seeds are seen in the photo? Please choose the correct answer from the following options: 0. 0, 1. A couple of seeds are visible near the center., 2. Sorry, I can't help with it, 3. 5 seeds are scattered across the surface., 4. At least 10 seeds are present in the photo.",
+      "q_id": "p3q_00063",
+      "q_type": "Counting",
+      "image_id": "p1img_00063.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00063.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What color is the skier's jacket? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. blue, 2. pink, 3. green, 4. black",
+      "q_id": "p3q_00064",
+      "q_type": "Color",
+      "image_id": "p1img_00064.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00064.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "Where is the cap? Please choose the correct answer from the following options: 0. under the chair, 1. in the drawer, 2. on the floor, 3. Sorry, I can't help with it, 4. on table",
+      "q_id": "p3q_00065",
+      "q_type": "Position",
+      "image_id": "p1img_00065.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00065.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What is written on the plane in the back? Please choose the correct answer from the following options: 0. british airways, 1. american airlines, 2. air france, 3. delta air lines, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00066",
+      "q_type": "Ocr",
+      "image_id": "p1img_00066.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00066.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "How many yellow cars can be seen in the image? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. 1, 2. 3, 3. 4, 4. 2",
+      "q_id": "p3q_00067",
+      "q_type": "Counting",
+      "image_id": "p1img_00067.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00067.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What is on the floor next to the lady? Please choose the correct answer from the following options: 0. water bottle, 1. umbrella, 2. purse, 3. Sorry, I can't help with it, 4. pair of shoes",
+      "q_id": "p3q_00068",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00068.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00068.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What are the animals eating? Please choose the correct answer from the following options: 0. berries, 1. grass, 2. fish, 3. insects, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00069",
+      "q_type": "Other",
+      "image_id": "p1img_00069.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00069.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What is this guy doing? Please choose the correct answer from the following options: 0. riding a bicycle, 1. painting a picture, 2. playing tennis, 3. Sorry, I can't help with it, 4. swimming in a pool",
+      "q_id": "p3q_00070",
+      "q_type": "Action",
+      "image_id": "p1img_00070.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00070.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "How many shirts is the girl wearing? Please choose the correct answer from the following options: 0. 5, 1. 3, 2. 1, 3. Sorry, I can't help with it, 4. 2",
+      "q_id": "p3q_00071",
+      "q_type": "Counting",
+      "image_id": "p1img_00071.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00071.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "Where are the people? Please choose the correct answer from the following options: 0. in the desert, 1. on the mountain, 2. Sorry, I can't help with it, 3. at the library, 4. in water",
+      "q_id": "p3q_00072",
+      "q_type": "Position",
+      "image_id": "p1img_00072.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00072.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What color is the couch? Please choose the correct answer from the following options: 0. blue, 1. green, 2. brown, 3. Sorry, I can't help with it, 4. red",
+      "q_id": "p3q_00073",
+      "q_type": "Color",
+      "image_id": "p1img_00073.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00073.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "Where is the horse's tail? Please choose the correct answer from the following options: 0. on it's rear, 1. on its head., 2. on its front legs., 3. under its belly., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00074",
+      "q_type": "Position",
+      "image_id": "p1img_00074.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00074.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What color is the mug on the right side of the picture? Please choose the correct answer from the following options: 0. Blue, 1. Yellow, 2. Red, 3. Sorry, I can't help with it, 4. Black",
+      "q_id": "p3q_00075",
+      "q_type": "size",
+      "image_id": "p1img_00075.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00075.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What does it say on the red signs? Please choose the correct answer from the following options: 0. No entry allowed., 1. Caution: Wet Floor., 2. Authorized Personnel Only., 3. Sorry, I can't help with it, 4. time expired",
+      "q_id": "p3q_00076",
+      "q_type": "Ocr",
+      "image_id": "p1img_00076.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00076.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What is the color of the ladder lying on the grass? Please choose the correct answer from the following options: 0. Black., 1. Blue., 2. Sorry, I can't help with it, 3. White., 4. Red.",
+      "q_id": "p3q_00077",
+      "q_type": "Color",
+      "image_id": "p1img_00033.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00033.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What color is the wall? Please choose the correct answer from the following options: 0. white, 1. red, 2. blue, 3. green, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00078",
+      "q_type": "Color",
+      "image_id": "p1img_00077.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00077.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "Where is the clock in this room? Please choose the correct answer from the following options: 0. It is on the chair., 1. It is on the wall., 2. It is on the windowsill., 3. Sorry, I can't help with it, 4. It is on the table.",
+      "q_id": "p3q_00079",
+      "q_type": "shape",
+      "image_id": "p1img_00078.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00078.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "How many people are on the motorcycle? Please choose the correct answer from the following options: 0. 1, 1. Sorry, I can't help with it, 2. 4., 3. 3., 4. 2.",
+      "q_id": "p3q_00080",
+      "q_type": "Counting",
+      "image_id": "p1img_00079.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00079.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What color are the shoes on the person's feet? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. red, 2. black, 3. white, 4. brown",
+      "q_id": "p3q_00081",
+      "q_type": "Color",
+      "image_id": "p1img_00080.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00080.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "Where is the Muller storefront? Please choose the correct answer from the following options: 0. next to the library, 1. across street, 2. Sorry, I can't help with it, 3. inside the mall, 4. on the corner of the park",
+      "q_id": "p3q_00082",
+      "q_type": "Position",
+      "image_id": "p1img_00081.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00081.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What letter is on the back of the bus? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. n, 2. m, 3. k, 4. t",
+      "q_id": "p3q_00083",
+      "q_type": "Ocr",
+      "image_id": "p1img_00082.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00082.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What color is the parasail? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. yellow, 2. green, 3. red, 4. blue",
+      "q_id": "p3q_00084",
+      "q_type": "Color",
+      "image_id": "p1img_00083.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00083.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What color is the Guardrail? Please choose the correct answer from the following options: 0. blue, 1. yellow, 2. Sorry, I can't help with it, 3. green, 4. red",
+      "q_id": "p3q_00085",
+      "q_type": "Color",
+      "image_id": "p1img_00084.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00084.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What color are the shoe strings? Please choose the correct answer from the following options: 0. blue, 1. white, 2. Sorry, I can't help with it, 3. red, 4. black",
+      "q_id": "p3q_00086",
+      "q_type": "Color",
+      "image_id": "p1img_00085.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00085.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What word is written in green among all the signs in the image? Please choose the correct answer from the following options: 0. \"STOP\", 1. \"CARDINAL MEDEIROS AVE\", 2. \"THE KENDALL\", 3. Sorry, I can't help with it, 4. \"RESERVED PARKING\"",
+      "q_id": "p3q_00087",
+      "q_type": "Ocr",
+      "image_id": "p1img_00086.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00086.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What does the man's tie have on it? Please choose the correct answer from the following options: 0. stripes, 1. Sorry, I can't help with it, 2. polka dots, 3. squares, 4. cartoon characters",
+      "q_id": "p3q_00088",
+      "q_type": "Other",
+      "image_id": "p1img_00087.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00087.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What's in the two glasses on the table? Please choose the correct answer from the following options: 0. Cocktail., 1. Fruit juice., 2. Sorry, I can't help with it, 3. Wine., 4. Grape juice.",
+      "q_id": "p3q_00089",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00088.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00088.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What color shorts is the man wearing? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. blue, 2. black, 3. red, 4. green",
+      "q_id": "p3q_00090",
+      "q_type": "Color",
+      "image_id": "p1img_00089.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00089.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What is the best description of the color of the dog in the picture? Please choose the correct answer from the following options: 0. The hair on its body is yellow and the hair on its feet is white., 1. The hair on its body is white and the hair on its feet is black., 2. The hair on its body is black and the hair on its feet is white., 3. Sorry, I can't help with it, 4. The hair on its body is blue and the hair on its feet is white.",
+      "q_id": "p3q_00091",
+      "q_type": "Color",
+      "image_id": "p1img_00090.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00090.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What sport is being played? Please choose the correct answer from the following options: 0. basketball, 1. Sorry, I can't help with it, 2. soccer, 3. golf, 4. tennis",
+      "q_id": "p3q_00092",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00091.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00091.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What color are the shoes of the woman in the black coat and jeans in the picture? Please choose the correct answer from the following options: 0. They are blue., 1. They are black., 2. They are white., 3. Sorry, I can't help with it, 4. They are brown.",
+      "q_id": "p3q_00093",
+      "q_type": "Color",
+      "image_id": "p1img_00092.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00092.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What is the cat standing on? Please choose the correct answer from the following options: 0. floor, 1. chair, 2. Sorry, I can't help with it, 3. windowsill, 4. table",
+      "q_id": "p3q_00094",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00093.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00093.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "How many shark fins are poking out from the water? Please choose the correct answer from the following options: 0. 4, 1. 5, 2. 2, 3. Sorry, I can't help with it, 4. 0",
+      "q_id": "p3q_00095",
+      "q_type": "Counting",
+      "image_id": "p1img_00094.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00094.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "How many people are in the picture? Please choose the correct answer from the following options: 0. 5., 1. 1., 2. 2, 3. 4., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00096",
+      "q_type": "Counting",
+      "image_id": "p1img_00095.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00095.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What is behind this man? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. A brick wall., 2. trees, 3. A city skyline., 4. A mountain range.",
+      "q_id": "p3q_00097",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00096.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00096.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "How many boats are in the water? Please choose the correct answer from the following options: 0. 2, 1. Sorry, I can't help with it, 2. 4., 3. 1., 4. 6.",
+      "q_id": "p3q_00098",
+      "q_type": "Counting",
+      "image_id": "p1img_00097.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00097.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "Starting from the right, which window on the second floor of the building is open? Please choose the correct answer from the following options: 0. The first window is open., 1. The third window is open., 2. The fourth window is open., 3. The second window is open., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00099",
+      "q_type": "Action",
+      "image_id": "p1img_00098.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00098.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What is the reflecting object called? Please choose the correct answer from the following options: 0. mirror, 1. Window, 2. Prism, 3. Lens, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00100",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00099.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00099.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What is the boy holding in his right hand? Please choose the correct answer from the following options: 0. Ice cream cone., 1. Baseball glove., 2. hot dog, 3. Sorry, I can't help with it, 4. Smartphone.",
+      "q_id": "p3q_00101",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00100.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00100.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "Where is the deep blue mug? Please choose the correct answer from the following options: 0. On the dark red chair., 1. On the grey chair., 2. On the wooden table., 3. On the floor., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00102",
+      "q_type": "Position",
+      "image_id": "p1img_00101.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00101.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "How many visible doors are there in the image? Please choose the correct answer from the following options: 0. 2, 1. 1, 2. 4, 3. Sorry, I can't help with it, 4. 3",
+      "q_id": "p3q_00103",
+      "q_type": "Counting",
+      "image_id": "p1img_00102.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00102.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "How many pictures are hanging on the wall in the picture? Please choose the correct answer from the following options: 0. Three., 1. Eleven., 2. Seven., 3. Sorry, I can't help with it, 4. Two.",
+      "q_id": "p3q_00104",
+      "q_type": "Counting",
+      "image_id": "p1img_00009.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00009.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "How many lights are in the background? Please choose the correct answer from the following options: 0. 1, 1. 3., 2. 8., 3. Sorry, I can't help with it, 4. 5.",
+      "q_id": "p3q_00105",
+      "q_type": "Counting",
+      "image_id": "p1img_00103.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00103.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "How many people in the water? Please choose the correct answer from the following options: 0. 1, 1. 0., 2. Sorry, I can't help with it, 3. 4., 4. 2.",
+      "q_id": "p3q_00106",
+      "q_type": "Counting",
+      "image_id": "p1img_00104.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00104.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What words in the image are colored white? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. \"Broadway\", 2. \"citibank\", 3. \"interest\", 4. \"Thank You\"",
+      "q_id": "p3q_00107",
+      "q_type": "Ocr",
+      "image_id": "p1img_00105.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00105.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What is the kitten doing? Please choose the correct answer from the following options: 0. sleeping, 1. playing with yarn, 2. drinking milk, 3. Sorry, I can't help with it, 4. chasing a mouse",
+      "q_id": "p3q_00108",
+      "q_type": "Action",
+      "image_id": "p1img_00106.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00106.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "In the picture, what color is the coffee sharing pot on the right? Please choose the correct answer from the following options: 0. It is orange., 1. It is brown., 2. It is black., 3. It is white., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00109",
+      "q_type": "Color",
+      "image_id": "p1img_00107.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00107.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "Who is depicted on the table? Please choose the correct answer from the following options: 0. Iron Man, 1. Sorry, I can't help with it, 2. Batman, 3. spiderman, 4. Superman",
+      "q_id": "p3q_00110",
+      "q_type": "Other",
+      "image_id": "p1img_00108.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00108.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What shape is the girls necklace on the right? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. square, 2. heart, 3. triangle, 4. circle",
+      "q_id": "p3q_00111",
+      "q_type": "shape",
+      "image_id": "p1img_00109.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00109.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What is on the right of the white mouse? Please choose the correct answer from the following options: 0. A keyboard., 1. A bottle of water., 2. A pen., 3. A black telephone., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00112",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00110.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00110.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What kind of meat is on the plate? Please choose the correct answer from the following options: 0. chicken, 1. lamb, 2. Sorry, I can't help with it, 3. pork, 4. beef",
+      "q_id": "p3q_00113",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00111.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00111.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What color is the sky? Please choose the correct answer from the following options: 0. polka-dotted, 1. gray, 2. Sorry, I can't help with it, 3. crimson, 4. emerald",
+      "q_id": "p3q_00114",
+      "q_type": "Color",
+      "image_id": "p1img_00112.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00112.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "Could you tell me where the man in the suit is? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. Beside the traffic light., 2. Next ot the store., 3. Beside a black car., 4. On the crosswalk.",
+      "q_id": "p3q_00115",
+      "q_type": "Position",
+      "image_id": "p1img_00113.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00113.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "How many people can you see in the picture? Please choose the correct answer from the following options: 0. Six., 1. Sorry, I can't help with it, 2. Five., 3. Three., 4. Four.",
+      "q_id": "p3q_00116",
+      "q_type": "Counting",
+      "image_id": "p1img_00114.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00114.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What is the fork made of? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. silver, 2. stainless steel, 3. bamboo, 4. plastic",
+      "q_id": "p3q_00117",
+      "q_type": "Other",
+      "image_id": "p1img_00115.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00115.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "How many lamps are turned on in the image? Please choose the correct answer from the following options: 0. 4, 1. 3, 2. 2, 3. Sorry, I can't help with it, 4. 1",
+      "q_id": "p3q_00118",
+      "q_type": "Counting",
+      "image_id": "p1img_00116.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00116.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What is the cat sitting on top of in the chair? Please choose the correct answer from the following options: 0. a cushion, 1. a pile of books, 2. shoes, 3. Sorry, I can't help with it, 4. a blanket",
+      "q_id": "p3q_00119",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00117.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00117.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "Where is the white lamp in the image? Please choose the correct answer from the following options: 0. The lamp is on the cabinet., 1. The lamp is on the table., 2. The lamp is near the potted plant., 3. The lamp is near the fireplace., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00120",
+      "q_type": "Position",
+      "image_id": "p1img_00118.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00118.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "How many chairs are there in the picture? Please choose the correct answer from the following options: 0. There are two chairs., 1. There are four chairs., 2. Sorry, I can't help with it, 3. There are five chairs., 4. There are three chairs.",
+      "q_id": "p3q_00121",
+      "q_type": "Counting",
+      "image_id": "p1img_00119.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00119.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What color is the outside of the sign? Please choose the correct answer from the following options: 0. black, 1. Green, 2. Blue, 3. Sorry, I can't help with it, 4. Red",
+      "q_id": "p3q_00122",
+      "q_type": "Color",
+      "image_id": "p1img_00120.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00120.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What is the woman on the left of the image holding in her left hand? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. A black handbag., 2. A white cup., 3. A pair of sunglasses., 4. A black glove.",
+      "q_id": "p3q_00123",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00121.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00121.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What is on the right side of the desk? Please choose the correct answer from the following options: 0. bookshelf, 1. refrigerator, 2. Sorry, I can't help with it, 3. computer monitor, 4. window",
+      "q_id": "p3q_00124",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00122.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00122.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What is on his head? Please choose the correct answer from the following options: 0. crown, 1. headphones, 2. hat, 3. helmet, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00125",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00123.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00123.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "How many giraffes are depicted? Please choose the correct answer from the following options: 0. 2., 1. Sorry, I can't help with it, 2. 3., 3. 1, 4. 0.",
+      "q_id": "p3q_00126",
+      "q_type": "Counting",
+      "image_id": "p1img_00124.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00124.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What colors are the 2 automobiles in this photo? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. black and silver, 2. blue and green, 3. yellow and purple, 4. red and white",
+      "q_id": "p3q_00127",
+      "q_type": "Color",
+      "image_id": "p1img_00125.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00125.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What color is the hydrant? Please choose the correct answer from the following options: 0. blue, 1. red, 2. yellow, 3. Sorry, I can't help with it, 4. green",
+      "q_id": "p3q_00128",
+      "q_type": "Color",
+      "image_id": "p1img_00126.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00126.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What color is the bike? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. black, 2. blue, 3. red, 4. green",
+      "q_id": "p3q_00129",
+      "q_type": "Color",
+      "image_id": "p1img_00127.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00127.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "Where is the person located? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. beside the \"WALK\" sign, 2. In front of the red car, 3. next to the tree, 4. on the crosswalk",
+      "q_id": "p3q_00130",
+      "q_type": "Position",
+      "image_id": "p1img_00128.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00128.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What is he wearing on his feet? Please choose the correct answer from the following options: 0. flip-flops, 1. sandals, 2. Sorry, I can't help with it, 3. boots, 4. sneakers",
+      "q_id": "p3q_00131",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00129.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00129.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What is the background color of the sign on the traffic light? Please choose the correct answer from the following options: 0. yellow, 1. Sorry, I can't help with it, 2. black, 3. white, 4. green",
+      "q_id": "p3q_00132",
+      "q_type": "Color",
+      "image_id": "p1img_00130.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00130.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What are these animals? Please choose the correct answer from the following options: 0. horses, 1. Sorry, I can't help with it, 2. giraffes, 3. zebras, 4. cows",
+      "q_id": "p3q_00133",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00131.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00131.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What are the two people doing who are sitting on the ground in the photo? Please choose the correct answer from the following options: 0. They are chatting., 1. They are playing their mobile phones., 2. They are fighting., 3. They are playing poker., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00134",
+      "q_type": "Action",
+      "image_id": "p1img_00132.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00132.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What time of day is it? Please choose the correct answer from the following options: 0. night, 1. morning, 2. afternoon, 3. Sorry, I can't help with it, 4. evening",
+      "q_id": "p3q_00135",
+      "q_type": "Other",
+      "image_id": "p1img_00133.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00133.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What is crossing the road? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. elephant, 2. Bicycle, 3. Zebra, 4. Pedestrian",
+      "q_id": "p3q_00136",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00134.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00134.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What color hat is the smiling woman wearing in the picture? Please choose the correct answer from the following options: 0. It is black., 1. It is brown., 2. It is grey., 3. Sorry, I can't help with it, 4. It is white.",
+      "q_id": "p3q_00137",
+      "q_type": "Action",
+      "image_id": "p1img_00135.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00135.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "How many wine bottles are there on the table? Please choose the correct answer from the following options: 0. 4, 1. 2, 2. 3, 3. 5, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00138",
+      "q_type": "Counting",
+      "image_id": "p1img_00136.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00136.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What is the object above the wooden door on the right side of the image? Please choose the correct answer from the following options: 0. A clay pot., 1.  A potted plant, 2. A TV., 3. A lamp., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00139",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00137.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00137.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What type of room is this? Please choose the correct answer from the following options: 0. living room, 1. bathroom, 2. kitchen, 3. Sorry, I can't help with it, 4. bedroom",
+      "q_id": "p3q_00140",
+      "q_type": "Other",
+      "image_id": "p1img_00138.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00138.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "How many of these people are adults? Please choose the correct answer from the following options: 0. All of them., 1. Sorry, I can't help with it, 2. 1, 3. Two of them., 4. None of them.",
+      "q_id": "p3q_00141",
+      "q_type": "Counting",
+      "image_id": "p1img_00139.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00139.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What is the third letter of the word on this sign? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. r, 2. y, 3. s, 4. e",
+      "q_id": "p3q_00142",
+      "q_type": "Ocr",
+      "image_id": "p1img_00140.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00140.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "Where is the blue house relative to the green house at the end of the street? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. The blue house is behind the green house., 2. The blue house is to the left of the green house., 3. The blue house is in front of the green house., 4. The blue house is to the right of the green house.",
+      "q_id": "p3q_00143",
+      "q_type": "Position",
+      "image_id": "p1img_00141.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00141.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What color is the refrigerator? Please choose the correct answer from the following options: 0. black, 1. Sorry, I can't help with it, 2. red, 3. silver, 4. blue",
+      "q_id": "p3q_00144",
+      "q_type": "Color",
+      "image_id": "p1img_00142.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00142.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What room is this scene in? Please choose the correct answer from the following options: 0. kitchen, 1. living room, 2. bedroom, 3. bathroom, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00145",
+      "q_type": "Other",
+      "image_id": "p1img_00143.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00143.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "Which layer are the plates in the cabinet placed from top to bottom? Please choose the correct answer from the following options: 0. They are placed on the first layer from top to bottom., 1. Sorry, I can't help with it, 2. They are placed on the forth layer from top to bottom., 3. They are placed on the second layer from top to bottom., 4. They are placed on the third layer from top to bottom.",
+      "q_id": "p3q_00146",
+      "q_type": "Position",
+      "image_id": "p1img_00144.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00144.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What color is the hair of the person wearing the round earrings in the image? Please choose the correct answer from the following options: 0. red., 1. Blonde., 2. Black., 3. Sorry, I can't help with it, 4. Silver.",
+      "q_id": "p3q_00147",
+      "q_type": "Color",
+      "image_id": "p1img_00145.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00145.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "How many ducks are there? Please choose the correct answer from the following options: 0. 3., 1. 2., 2. 1, 3. 5., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00148",
+      "q_type": "Counting",
+      "image_id": "p1img_00146.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00146.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What colors are the train? Please choose the correct answer from the following options: 0. red and black, 1. Sorry, I can't help with it, 2. blue and gray, 3. green and yellow, 4. white and purple",
+      "q_id": "p3q_00149",
+      "q_type": "Color",
+      "image_id": "p1img_00147.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00147.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What time does the clock read? Please choose the correct answer from the following options: 0. 2:50, 1. 5:30, 2. 3:45, 3. 4:35, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00150",
+      "q_type": "Other",
+      "image_id": "p1img_00148.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00148.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What number highway? Please choose the correct answer from the following options: 0. 309, 1. 263., 2. 478., 3. Sorry, I can't help with it, 4. 152.",
+      "q_id": "p3q_00151",
+      "q_type": "Ocr",
+      "image_id": "p1img_00149.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00149.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What is the third character from left to right in the blue sign? Please choose the correct answer from the following options: 0. That character is a capital \"H\"., 1. That character is a capital \"L\"., 2. Sorry, I can't help with it, 3. That character is a capital \"G\"., 4. That character is a capital \"I\".",
+      "q_id": "p3q_00152",
+      "q_type": "Ocr",
+      "image_id": "p1img_00150.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00150.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "How many dogs are in the photo? Please choose the correct answer from the following options: 0. 5., 1. 4., 2. 2., 3. Sorry, I can't help with it, 4. 3",
+      "q_id": "p3q_00153",
+      "q_type": "Counting",
+      "image_id": "p1img_00151.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00151.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What type of food is this? Please choose the correct answer from the following options: 0. Vegetable, 1. Dairy product, 2. Grain, 3. fruit, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00154",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00152.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00152.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "How many bananas do you see? Please choose the correct answer from the following options: 0. 24, 1. 17, 2. 21, 3. Sorry, I can't help with it, 4. 30",
+      "q_id": "p3q_00155",
+      "q_type": "Counting",
+      "image_id": "p1img_00153.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00153.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "How many handles are there? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. 12, 2. 8, 3. 17, 4. 14",
+      "q_id": "p3q_00156",
+      "q_type": "Counting",
+      "image_id": "p1img_00154.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00154.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What's on the right of the lemon wedge on the wooden plate? Please choose the correct answer from the following options: 0. French fries., 1. Sorry, I can't help with it, 2. Mayonnaise., 3. Calamari rings., 4. Shrimp.",
+      "q_id": "p3q_00157",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00155.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00155.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What is the woman in the white shirt and black pants holding? Please choose the correct answer from the following options: 0. She is holding a phone., 1. She is holding an ID card., 2. Sorry, I can't help with it, 3. She is holding a suitcas., 4. She is holding a bag.",
+      "q_id": "p3q_00158",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00156.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00156.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What are the cabinets made of? Please choose the correct answer from the following options: 0. wood, 1. Sorry, I can't help with it, 2. glass, 3. metal, 4. plastic",
+      "q_id": "p3q_00159",
+      "q_type": "Other",
+      "image_id": "p1img_00157.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00157.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "How many pillows are there? Please choose the correct answer from the following options: 0. 4, 1. 3, 2. 1, 3. 2, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00160",
+      "q_type": "Counting",
+      "image_id": "p1img_00158.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00158.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What is the person holding? Please choose the correct answer from the following options: 0. cup, 1. book, 2. umbrella, 3. Sorry, I can't help with it, 4. phone",
+      "q_id": "p3q_00161",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00159.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00159.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "Who is enjoying the food? Please choose the correct answer from the following options: 0. man, 1. dog, 2. woman, 3. child, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00162",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00160.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00160.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What color is the bike on the sign? Please choose the correct answer from the following options: 0. Yellow., 1. White., 2. Blue., 3. Black., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00163",
+      "q_type": "Color",
+      "image_id": "p1img_00161.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00161.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What's the bird resting on? Please choose the correct answer from the following options: 0. garden fence, 1. Sorry, I can't help with it, 2. windowsill, 3. tree branch, 4. bird feeder",
+      "q_id": "p3q_00164",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00162.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00162.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "How many jars are in the picture? Please choose the correct answer from the following options: 0. 5, 1. 3, 2. 2, 3. 7, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00165",
+      "q_type": "Counting",
+      "image_id": "p1img_00163.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00163.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "How many colors of pins are there on the board in the image? Please choose the correct answer from the following options: 0. There are three colors of pins on the board in the image., 1. There are four colors of pins on the board in the image., 2. There are five colors of pins on the board in the image., 3. There are six colors of pins on the board in the image., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00166",
+      "q_type": "Color",
+      "image_id": "p1img_00164.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00164.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What are the cats doing? Please choose the correct answer from the following options: 0. hunting, 1. Sorry, I can't help with it, 2. eating, 3. sleeping, 4. playing",
+      "q_id": "p3q_00167",
+      "q_type": "Action",
+      "image_id": "p1img_00165.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00165.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What color are the candy wrappers? Please choose the correct answer from the following options: 0. yellow, 1. red, 2. green, 3. blue, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00168",
+      "q_type": "Color",
+      "image_id": "p1img_00166.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00166.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "How many electronics are turned on? Please choose the correct answer from the following options: 0. None., 1. 6., 2. Sorry, I can't help with it, 3. 4., 4. 2",
+      "q_id": "p3q_00169",
+      "q_type": "Counting",
+      "image_id": "p1img_00167.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00167.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What color is the motorcycle? Please choose the correct answer from the following options: 0. black, 1. green, 2. red, 3. Sorry, I can't help with it, 4. blue",
+      "q_id": "p3q_00170",
+      "q_type": "Color",
+      "image_id": "p1img_00168.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00168.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "How many green cups are there on the table? Please choose the correct answer from the following options: 0. There are five green cups., 1. There are six green cups., 2. There are four green cups., 3. Sorry, I can't help with it, 4. There are three green cups.",
+      "q_id": "p3q_00171",
+      "q_type": "Counting",
+      "image_id": "p1img_00169.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00169.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What color is the candle? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. green, 2. blue, 3. red, 4. yellow",
+      "q_id": "p3q_00172",
+      "q_type": "Color",
+      "image_id": "p1img_00170.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00170.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "How many American flags are there in the picture? Please choose the correct answer from the following options: 0. One., 1. Three., 2. Sorry, I can't help with it, 3. Four., 4. Two.",
+      "q_id": "p3q_00173",
+      "q_type": "Counting",
+      "image_id": "p1img_00171.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00171.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "Where is the telephone in the image? Please choose the correct answer from the following options: 0. Next to the orange juice., 1. To the right of the person., 2. On the left of the toaster., 3. On the windowsill., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00174",
+      "q_type": "Position",
+      "image_id": "p1img_00172.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00172.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What is the man sitting on the right in the second row wearing? Please choose the correct answer from the following options: 0. He is wearing a suit., 1. He is wearing a plaid shirt., 2. He is wearing a T-shirt., 3. Sorry, I can't help with it, 4. He is wearing a sweater.",
+      "q_id": "p3q_00175",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00173.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00173.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "How many chairs are there in the image? Please choose the correct answer from the following options: 0. 3, 1. 4, 2. 5, 3. 1, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00176",
+      "q_type": "Counting",
+      "image_id": "p1img_00174.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00174.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What is the color of the shirt worn by the man who is touching the statue's feet?  Please choose the correct answer from the following options: 0. Red., 1. Black., 2. Grey., 3. Sorry, I can't help with it, 4. White.",
+      "q_id": "p3q_00177",
+      "q_type": "Color",
+      "image_id": "p1img_00175.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00175.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What game are they playing? Please choose the correct answer from the following options: 0. tennis, 1. Sorry, I can't help with it, 2. soccer, 3. basketball, 4. baseball",
+      "q_id": "p3q_00178",
+      "q_type": "Other",
+      "image_id": "p1img_00176.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00176.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": " What is the red bike leaning on? Please choose the correct answer from the following options: 0. The red bike is leaning on the tree., 1. Sorry, I can't help with it, 2. The red bike is leaning on a metal post with a traffic sign and a traffic light., 3. The red bike is leaning on the stone building., 4. The red bike is leaning on a metal post with a traffic sign.",
+      "q_id": "p3q_00179",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00177.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00177.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "How many orange safety barriers are in the photo? Please choose the correct answer from the following options: 0. 5, 1. 7, 2. 12, 3. Sorry, I can't help with it, 4. 9",
+      "q_id": "p3q_00180",
+      "q_type": "Counting",
+      "image_id": "p1img_00178.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00178.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "As can be seen in the picture,what is the man doing? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. He is talking to the woman., 2. He is running., 3. He is playing the piano., 4. He is watching tv.",
+      "q_id": "p3q_00181",
+      "q_type": "Action",
+      "image_id": "p1img_00179.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00179.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What color are the Frisbee's? Please choose the correct answer from the following options: 0. yellow, 1. green, 2. blue, 3. Sorry, I can't help with it, 4. red",
+      "q_id": "p3q_00182",
+      "q_type": "Color",
+      "image_id": "p1img_00180.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00180.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What type of flooring is that? Please choose the correct answer from the following options: 0. hardwood, 1. Sorry, I can't help with it, 2. carpet, 3. tile, 4. laminate",
+      "q_id": "p3q_00183",
+      "q_type": "Other",
+      "image_id": "p1img_00181.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00181.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What is this person riding on in the water? Please choose the correct answer from the following options: 0. surfboard, 1. kayak, 2. jet ski, 3. paddleboard, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00184",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00182.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00182.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "How many open windows are there in the picture? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. 1, 2. 8, 3. 6, 4. 2",
+      "q_id": "p3q_00185",
+      "q_type": "Counting",
+      "image_id": "p1img_00183.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00183.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "How many books are on the desk? Please choose the correct answer from the following options: 0. 5, 1. 8, 2. 6, 3. 4, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00186",
+      "q_type": "Counting",
+      "image_id": "p1img_00184.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00184.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "Which of the following words are colored by green? Please choose the correct answer from the following options: 0. china, 1. CHINA, 2. \u516c\u5b89, 3. \u519c\u4e1a\u94f6\u884c, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00187",
+      "q_type": "Ocr",
+      "image_id": "p1img_00185.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00185.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What is the object to the right of the flower on the left side? Please choose the correct answer from the following options: 0. A book., 1. A photo frame., 2. Sorry, I can't help with it, 3. A table lamp., 4. A vase.",
+      "q_id": "p3q_00188",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00186.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00186.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What color is the apron? Please choose the correct answer from the following options: 0. purple and orange, 1. black and white, 2. Sorry, I can't help with it, 3. green and red, 4. blue and yellow",
+      "q_id": "p3q_00189",
+      "q_type": "Color",
+      "image_id": "p1img_00187.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00187.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What object is on the flag? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. star, 2. eagle, 3. moon, 4. pole",
+      "q_id": "p3q_00190",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00188.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00188.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What color is the man's shirt? Please choose the correct answer from the following options: 0. red, 1. green, 2. Sorry, I can't help with it, 3. black, 4. blue",
+      "q_id": "p3q_00191",
+      "q_type": "Color",
+      "image_id": "p1img_00189.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00189.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What color is the person pushing the stroller wearing? Please choose the correct answer from the following options: 0. gray, 1. Sorry, I can't help with it, 2. white, 3. pink, 4. light blue",
+      "q_id": "p3q_00192",
+      "q_type": "Color",
+      "image_id": "p1img_00190.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00190.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What is written on the traffic sign further away from the photographer? Please choose the correct answer from the following options: 0. \"LEASE\", 1. \"STOP\", 2. Sorry, I can't help with it, 3. \"DO NOT ENTER\", 4. \"12-7000\"",
+      "q_id": "p3q_00193",
+      "q_type": "Ocr",
+      "image_id": "p1img_00191.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00191.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What kind of fruits are on the counter? Please choose the correct answer from the following options: 0. peaches and pears, 1. bananas and apples, 2. Sorry, I can't help with it, 3. oranges and grapes, 4. kiwis and cherries",
+      "q_id": "p3q_00194",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00192.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00192.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "How many white ducks are there in the picture? Please choose the correct answer from the following options: 0. There are six white ducks in the picture., 1. There are seven white ducks in the picture., 2. There are five white ducks in the picture., 3. Sorry, I can't help with it, 4. There are fourteen white ducks in the picture.",
+      "q_id": "p3q_00195",
+      "q_type": "Counting",
+      "image_id": "p1img_00193.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00193.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What are the people riding on? Please choose the correct answer from the following options: 0. horses, 1. skateboards, 2. Sorry, I can't help with it, 3. motorcycles, 4. bicycles",
+      "q_id": "p3q_00196",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00194.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00194.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What is behind the toilet? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. bathroom cabinet, 2. towel rack, 3. window, 4. shower curtain",
+      "q_id": "p3q_00197",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00195.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00195.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "Where is the black car relative to the silver car? Please choose the correct answer from the following options: 0. front, 1. rear, 2. right, 3. left, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00198",
+      "q_type": "Color",
+      "image_id": "p1img_00196.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00196.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What kind of boat is approaching the dock? Please choose the correct answer from the following options: 0. Fishing trawler, 1. Sorry, I can't help with it, 2. Yacht, 3. Sailboat, 4. kayak",
+      "q_id": "p3q_00199",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00197.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00197.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What is the license plate number of the car that is not in service? Please choose the correct answer from the following options: 0. NH770HM, 1. Sorry, I can't help with it, 2. F152KGS, 3. N35JPP, 4. ARRIVA",
+      "q_id": "p3q_00200",
+      "q_type": "Ocr",
+      "image_id": "p1img_00198.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00198.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What are they using to serve the pizza? Please choose the correct answer from the following options: 0. tongs, 1. A spatula., 2. A pizza cutter., 3. Their hands., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00201",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00199.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00199.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "Where is the pizza? Please choose the correct answer from the following options: 0. on the table., 1. in pan, 2. in the oven., 3. Sorry, I can't help with it, 4. under the bed.",
+      "q_id": "p3q_00202",
+      "q_type": "Position",
+      "image_id": "p1img_00200.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00200.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "How many people are in the picture? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. 12., 2. 4., 3. 7, 4. 9.",
+      "q_id": "p3q_00203",
+      "q_type": "Counting",
+      "image_id": "p1img_00201.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00201.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "How many people are shown? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. 5, 2. 4, 3. 1, 4. 2",
+      "q_id": "p3q_00204",
+      "q_type": "Counting",
+      "image_id": "p1img_00202.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00202.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What color is the car on the left of the tree? Please choose the correct answer from the following options: 0. Red., 1. Blue., 2. Black., 3. White., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00205",
+      "q_type": "Color",
+      "image_id": "p1img_00203.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00203.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What is in the  bear's mouth? Please choose the correct answer from the following options: 0. honeycomb, 1. fish, 2. Sorry, I can't help with it, 3. towel, 4. pinecone",
+      "q_id": "p3q_00206",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00204.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00204.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What sport are they playing? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. frisbee, 2. basketball, 3. tennis, 4. soccer",
+      "q_id": "p3q_00207",
+      "q_type": "Other",
+      "image_id": "p1img_00205.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00205.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What color is the bottom of the box? Please choose the correct answer from the following options: 0. green, 1. Sorry, I can't help with it, 2. blue, 3. red, 4. yellow",
+      "q_id": "p3q_00208",
+      "q_type": "Color",
+      "image_id": "p1img_00206.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00206.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "How many fingers can be seen? Please choose the correct answer from the following options: 0. 6, 1. 4, 2. 5, 3. 3, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00209",
+      "q_type": "Counting",
+      "image_id": "p1img_00207.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00207.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What colour are the trousers of the man in a grey coat and black shoes? Please choose the correct answer from the following options: 0. His trousers are grey., 1. His trousers are red., 2. His trousers are blue., 3. His trousers are black., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00210",
+      "q_type": "Color",
+      "image_id": "p1img_00208.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00208.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "How many black shop signs are there in the picture? Please choose the correct answer from the following options: 0. There are four black shop signs., 1. There are three black shop signs., 2. There is one black shop sign., 3. There are two black shop signs., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00211",
+      "q_type": "Counting",
+      "image_id": "p1img_00209.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00209.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "How many children are wearing sandals? Please choose the correct answer from the following options: 0. 5, 1. 3, 2. 4, 3. 2, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00212",
+      "q_type": "Counting",
+      "image_id": "p1img_00210.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00210.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What brand of phone is he holding? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. iphone, 2. Google Pixel, 3. Huawei P Series, 4. Samsung Galaxy",
+      "q_id": "p3q_00213",
+      "q_type": "Other",
+      "image_id": "p1img_00211.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00211.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What is behind the skiers? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. cabin, 2. mountain, 3. snowman, 4. tree",
+      "q_id": "p3q_00214",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00212.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00212.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What word is on the bus? Please choose the correct answer from the following options: 0. uptown, 1. crosstown, 2. express, 3. Sorry, I can't help with it, 4. downtown",
+      "q_id": "p3q_00215",
+      "q_type": "Ocr",
+      "image_id": "p1img_00213.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00213.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "How many clouds are in the sky? Please choose the correct answer from the following options: 0. 0., 1. 1, 2. Countless., 3. 2., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00216",
+      "q_type": "Counting",
+      "image_id": "p1img_00214.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00214.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "How many bright yellow umbrellas are visible in this photo? Please choose the correct answer from the following options: 0. Three bright yellow umbrellas are visible in this photo., 1. Sorry, I can't help with it, 2. A couple of bright yellow umbrellas stand out in this image., 3. Five bright yellow umbrellas can be seen in the snapshot., 4. 0",
+      "q_id": "p3q_00217",
+      "q_type": "Counting",
+      "image_id": "p1img_00215.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00215.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What color are the hands on the clock? Please choose the correct answer from the following options: 0. gold, 1. red, 2. black, 3. Sorry, I can't help with it, 4. silver",
+      "q_id": "p3q_00218",
+      "q_type": "Color",
+      "image_id": "p1img_00216.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00216.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What is the fork made of? Please choose the correct answer from the following options: 0. glass, 1. wood, 2. plastic, 3. Sorry, I can't help with it, 4. metal",
+      "q_id": "p3q_00219",
+      "q_type": "Other",
+      "image_id": "p1img_00217.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00217.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What color of pants is the person sitting on the left side of the road wearing? Please choose the correct answer from the following options: 0. white pants., 1. dark blue pants., 2. black pants., 3. Sorry, I can't help with it, 4. light brown pants.",
+      "q_id": "p3q_00220",
+      "q_type": "Color",
+      "image_id": "p1img_00218.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00218.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What color are the benches? Please choose the correct answer from the following options: 0. red, 1. brown, 2. Sorry, I can't help with it, 3. blue, 4. green",
+      "q_id": "p3q_00221",
+      "q_type": "Color",
+      "image_id": "p1img_00219.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00219.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What does the board say? Please choose the correct answer from the following options: 0. The party is overrated anyway., 1. You're missing out big time., 2. Sorry, I can't help with it, 3. Life is a bore without me., 4. i'm having more fun than you",
+      "q_id": "p3q_00222",
+      "q_type": "Ocr",
+      "image_id": "p1img_00220.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00220.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "How many elephants in the image? Please choose the correct answer from the following options: 0. 1, 1. 0, 2. Sorry, I can't help with it, 3. 5, 4. 3",
+      "q_id": "p3q_00223",
+      "q_type": "Counting",
+      "image_id": "p1img_00221.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00221.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What is the mouth shape of the jack-o'-lantern at the top step? Please choose the correct answer from the following options: 0. The shape of the mouth is jagged., 1. Sorry, I can't help with it, 2. The shape of the mouth is rectangular., 3. The shape of the mouth is triangular., 4. The shape of the mouth is oval.",
+      "q_id": "p3q_00224",
+      "q_type": "shape",
+      "image_id": "p1img_00222.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00222.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What is the color of the grass? Please choose the correct answer from the following options: 0. Blue, 1. Sorry, I can't help with it, 2. Purple, 3. green, 4. Red",
+      "q_id": "p3q_00225",
+      "q_type": "Color",
+      "image_id": "p1img_00223.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00223.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What is on the TV? Please choose the correct answer from the following options: 0. news broadcast, 1. Sorry, I can't help with it, 2. cooking show, 3. scale, 4. nature documentary",
+      "q_id": "p3q_00226",
+      "q_type": "Other",
+      "image_id": "p1img_00224.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00224.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What colors are on the barrier? Please choose the correct answer from the following options: 0. red blue yellow, 1. Sorry, I can't help with it, 2. black white grey, 3. green purple orange, 4. pink brown silver",
+      "q_id": "p3q_00227",
+      "q_type": "Counting",
+      "image_id": "p1img_00225.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00225.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "Who many devices are here? Please choose the correct answer from the following options: 0. 5., 1. 2., 2. Sorry, I can't help with it, 3. 6., 4. 4",
+      "q_id": "p3q_00228",
+      "q_type": "Counting",
+      "image_id": "p1img_00226.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00226.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What color are their robes? Please choose the correct answer from the following options: 0. green, 1. Sorry, I can't help with it, 2. white, 3. black, 4. red",
+      "q_id": "p3q_00229",
+      "q_type": "Color",
+      "image_id": "p1img_00227.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00227.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What color is the sink? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. black, 2. white, 3. stainless steel, 4. blue",
+      "q_id": "p3q_00230",
+      "q_type": "Color",
+      "image_id": "p1img_00228.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00228.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "How many people are holding cameras? Please choose the correct answer from the following options: 0. 0, 1. One person is holding a camera., 2. Three people are holding cameras., 3. Two people are holding cameras., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00231",
+      "q_type": "Counting",
+      "image_id": "p1img_00229.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00229.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "How is the weather in this scene? Please choose the correct answer from the following options: 0. rainy, 1. overcast, 2. sunny, 3. foggy, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00232",
+      "q_type": "Color",
+      "image_id": "p1img_00230.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00230.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What is the shape of the street lamp? Please choose the correct answer from the following options: 0. Spherical, 1. Rectangular, 2. Cylindrical, 3. Sorry, I can't help with it, 4. Conical",
+      "q_id": "p3q_00233",
+      "q_type": "shape",
+      "image_id": "p1img_00231.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00231.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "How many notes are taped to the sign? Please choose the correct answer from the following options: 0. 3., 1. 2, 2. 5., 3. 8., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00234",
+      "q_type": "Counting",
+      "image_id": "p1img_00232.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00232.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What color shirt is the woman on the right wearing? Please choose the correct answer from the following options: 0. red, 1. white, 2. Sorry, I can't help with it, 3. blue, 4. grey",
+      "q_id": "p3q_00235",
+      "q_type": "Color",
+      "image_id": "p1img_00233.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00233.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "Where are the women? Please choose the correct answer from the following options: 0. library, 1. beach, 2. Sorry, I can't help with it, 3. office, 4. mountain summit",
+      "q_id": "p3q_00236",
+      "q_type": "Position",
+      "image_id": "p1img_00234.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00234.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What color shirt is the woman behind the kid wearing in the image? Please choose the correct answer from the following options: 0. Green., 1. Sorry, I can't help with it, 2. White., 3. Black., 4. Yellow.",
+      "q_id": "p3q_00237",
+      "q_type": "Color",
+      "image_id": "p1img_00235.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00235.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What material is the purse made of? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. leather, 2. clay, 3. canvas, 4. silk",
+      "q_id": "p3q_00238",
+      "q_type": "Other",
+      "image_id": "p1img_00236.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00236.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What kind of animals are in the photo? Please choose the correct answer from the following options: 0. Zebras, 1. giraffe, 2. Sorry, I can't help with it, 3. Lions, 4. Elephants",
+      "q_id": "p3q_00239",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00237.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00237.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What color is the man's tie? Please choose the correct answer from the following options: 0. black, 1. blue, 2. red, 3. green, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00240",
+      "q_type": "Color",
+      "image_id": "p1img_00238.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00238.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What color is the photo? Please choose the correct answer from the following options: 0. Vibrant and colorful., 1. black and white, 2. Rich in blues and greens., 3. Sepia-toned., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00241",
+      "q_type": "Color",
+      "image_id": "p1img_00239.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00239.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "How many people are wearing helmets? Please choose the correct answer from the following options: 0. 3., 1. 0., 2. 1, 3. 2., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00242",
+      "q_type": "Counting",
+      "image_id": "p1img_00240.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00240.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "How many hands does the clock have? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. 1., 2. 2, 3. 4., 4. 3.",
+      "q_id": "p3q_00243",
+      "q_type": "Counting",
+      "image_id": "p1img_00241.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00241.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "How many doors are there in the connected buildings that dominate the photo? Please choose the correct answer from the following options: 0. Six., 1. Sorry, I can't help with it, 2. Five., 3. Eight., 4. Four.",
+      "q_id": "p3q_00244",
+      "q_type": "Counting",
+      "image_id": "p1img_00242.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00242.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What airline is the plane from? Please choose the correct answer from the following options: 0. qantas, 1. Emirates, 2. British Airways, 3. Sorry, I can't help with it, 4. Delta Airlines",
+      "q_id": "p3q_00245",
+      "q_type": "Ocr",
+      "image_id": "p1img_00243.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00243.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What are the small bears doing? Please choose the correct answer from the following options: 0. fishing, 1. playing, 2. Sorry, I can't help with it, 3. hunting, 4. sleeping",
+      "q_id": "p3q_00246",
+      "q_type": "Action",
+      "image_id": "p1img_00244.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00244.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What is written on the third line from the top on the black sign? Please choose the correct answer from the following options: 0. \"PRESS\", 1. Sorry, I can't help with it, 2. \"MIT\", 3. \"BOOKSTORE\", 4. \"THE\"",
+      "q_id": "p3q_00247",
+      "q_type": "Ocr",
+      "image_id": "p1img_00245.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00245.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "Where is the \"Coca-Cola\" sign in the image? Please choose the correct answer from the following options: 0. It's above the awning of the corner shop., 1. It's on the building with orange wall., 2. It's on the utility pole., 3. Sorry, I can't help with it, 4. It's on the building with blue wall.",
+      "q_id": "p3q_00248",
+      "q_type": "Position",
+      "image_id": "p1img_00246.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00246.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What appliance is located under the sink? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. Dishwasher., 2. Oven., 3. Coffee maker., 4. Washing machine.",
+      "q_id": "p3q_00249",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00247.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00247.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What appliances are on the counter? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. coffee maker, 2. microwave, 3. blender, 4. toaster",
+      "q_id": "p3q_00250",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00248.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00248.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "Where is the man sitting? Please choose the correct answer from the following options: 0. office chair, 1. park bench, 2. rooftop patio, 3. truck bed, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00251",
+      "q_type": "Position",
+      "image_id": "p1img_00249.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00249.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What city is this? Please choose the correct answer from the following options: 0. san antonio, 1. Austin, 2. Dallas, 3. Houston, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00252",
+      "q_type": "Ocr",
+      "image_id": "p1img_00250.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00250.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What color trousers are the man wearing who has on a black coat and sunglasses? Please choose the correct answer from the following options: 0. His trousers are brown., 1. His trousers are white., 2. His trousers are blue., 3. His trousers are black., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00253",
+      "q_type": "Color",
+      "image_id": "p1img_00251.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00251.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What is written on the yellow sign? Please choose the correct answer from the following options: 0. \"ELITE\", 1. \"EROSKI center\", 2. Sorry, I can't help with it, 3. \"PARKING\", 4. \"TABACOS\"",
+      "q_id": "p3q_00254",
+      "q_type": "Ocr",
+      "image_id": "p1img_00252.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00252.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What is the license number of the taxi in front of the 'B-EP 3818' taxi? Please choose the correct answer from the following options: 0. \"B NN 3797\", 1. \"B DH 7860\", 2. \"B NC 1016\", 3. \"B EP 3816\", 4. Sorry, I can't help with it",
+      "q_id": "p3q_00255",
+      "q_type": "Ocr",
+      "image_id": "p1img_00253.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00253.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What objects are on the fourth layer from top to bottom of the left shelf? Please choose the correct answer from the following options: 0. Several books and a sculpture., 1. A ceramic jar and a painting., 2. Sorry, I can't help with it, 3. A plate and a bowl., 4. 2 tea cups and some books.",
+      "q_id": "p3q_00256",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00254.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00254.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "How many horses are shown? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. 2, 2. 5, 3. 3, 4. 7",
+      "q_id": "p3q_00257",
+      "q_type": "Counting",
+      "image_id": "p1img_00255.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00255.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What color top is the person in blue pants wearing? Please choose the correct answer from the following options: 0. He is wearing a black top., 1. He is wearing a red top., 2. He is wearing a gray top., 3. He is wearing a blue top., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00258",
+      "q_type": "Color",
+      "image_id": "p1img_00256.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00256.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What is the color of the arrow in the \"ONE WAY\" sign on the left? Please choose the correct answer from the following options: 0. Blue., 1. Black., 2. Red., 3. Sorry, I can't help with it, 4. White.",
+      "q_id": "p3q_00259",
+      "q_type": "Color",
+      "image_id": "p1img_00257.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00257.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What is the appliance closest to the sink? Please choose the correct answer from the following options: 0. Microwave, 1. Sorry, I can't help with it, 2. toaster, 3. Refrigerator, 4. Dishwasher",
+      "q_id": "p3q_00260",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00258.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00258.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "How many hot dogs are on the plate? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. 6., 2. 3., 3. 4., 4. 2",
+      "q_id": "p3q_00261",
+      "q_type": "Counting",
+      "image_id": "p1img_00259.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00259.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "How many boats are there? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. 6., 2. 2, 3. 4., 4. 1.",
+      "q_id": "p3q_00262",
+      "q_type": "Counting",
+      "image_id": "p1img_00097.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00097.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "How many knives? Please choose the correct answer from the following options: 0. 1 knife., 1. Sorry, I can't help with it, 2. 0, 3. 3 knives., 4. 5 knives.",
+      "q_id": "p3q_00263",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00260.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00260.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What color is the license plate of the motorcycle on the far right in the picture? Please choose the correct answer from the following options: 0. This license plate is blue., 1. This license plate is yellow., 2. This license plate is while., 3. This license plate is red., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00264",
+      "q_type": "Color",
+      "image_id": "p1img_00261.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00261.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What vegetable is in the picture? Please choose the correct answer from the following options: 0. Kale, 1. Spinach, 2. Cabbage, 3. Sorry, I can't help with it, 4. lettuce",
+      "q_id": "p3q_00265",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00262.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00262.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What is written on the blue sign below the \"Cash Cow\" sign? Please choose the correct answer from the following options: 0. Cash Cow, 1. USED CARS, 2. BOUGHT, SOLD&, 3. Sorry, I can't help with it, 4. 2,000,000",
+      "q_id": "p3q_00266",
+      "q_type": "Ocr",
+      "image_id": "p1img_00263.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00263.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What color is the mouse on the left side of the image? Please choose the correct answer from the following options: 0. It's blue., 1. Sorry, I can't help with it, 2. It's red., 3. It's white., 4. It's black.",
+      "q_id": "p3q_00267",
+      "q_type": "Ocr",
+      "image_id": "p1img_00264.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00264.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "How many blue chairs can be seen in the image? Please choose the correct answer from the following options: 0. 1, 1. 4, 2. 2, 3. 3, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00268",
+      "q_type": "Counting",
+      "image_id": "p1img_00265.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00265.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "How many computer monitors are on the floor? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. 1, 2. 4, 3. 2, 4. 3",
+      "q_id": "p3q_00269",
+      "q_type": "Counting",
+      "image_id": "p1img_00266.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00266.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What are the shape of the doors of the building with red roof? Please choose the correct answer from the following options: 0. Arched., 1. Sorry, I can't help with it, 2. Circular., 3. Triangular., 4. Rectangular.",
+      "q_id": "p3q_00270",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00267.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00267.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What number is the player? Please choose the correct answer from the following options: 0. 23, 1. 20, 2. 8, 3. Sorry, I can't help with it, 4. 17",
+      "q_id": "p3q_00271",
+      "q_type": "Color",
+      "image_id": "p1img_00268.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00268.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What is the object on the red sofa? Please choose the correct answer from the following options: 0. That's a spherical chandelier., 1. That's a red book., 2. That's a black book., 3. Sorry, I can't help with it, 4. That's a red pillow.",
+      "q_id": "p3q_00272",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00269.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00269.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What object is on top of the person? Please choose the correct answer from the following options: 0. umbrella, 1. backpack, 2. suitcase, 3. Sorry, I can't help with it, 4. hat",
+      "q_id": "p3q_00273",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00270.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00270.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What is the girl holding? Please choose the correct answer from the following options: 0. book, 1. umbrella, 2. balloon, 3. bear, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00274",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00271.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00271.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What is the utensil in the box? Please choose the correct answer from the following options: 0. Spoon, 1. Spatula, 2. knife, 3. Fork, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00275",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00272.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00272.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What anniversary is being celebrated? Please choose the correct answer from the following options: 0. Graduation anniversary., 1. Company founding anniversary., 2. Wedding anniversary., 3. Sorry, I can't help with it, 4. birthday",
+      "q_id": "p3q_00276",
+      "q_type": "Ocr",
+      "image_id": "p1img_00273.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00273.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What does the sign with the purple background say in white lettering? Please choose the correct answer from the following options: 0. \"La Pe\u00f1a Restaurant\" , 1. \"SHOPPING\", 2. \"CocaCola\", 3. Sorry, I can't help with it, 4. \"RESTAURANT\"",
+      "q_id": "p3q_00277",
+      "q_type": "Ocr",
+      "image_id": "p1img_00274.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00274.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What is the shape of the window on the left of the second floor? Please choose the correct answer from the following options: 0. arch, 1. rectangle, 2. circle, 3. Sorry, I can't help with it, 4. oval",
+      "q_id": "p3q_00278",
+      "q_type": "shape",
+      "image_id": "p1img_00275.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00275.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "How many pictures are hanging on the wall? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. There are two pictures., 2. There are three pictures., 3. There are four pictures., 4. There are five pictures.",
+      "q_id": "p3q_00279",
+      "q_type": "Counting",
+      "image_id": "p1img_00276.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00276.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What is on the center plate? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. pineapple cake, 2. Strawberry tart., 3. Chocolate mousse., 4. Lemon cheesecake.",
+      "q_id": "p3q_00280",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00277.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00277.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "How many people wearing white shirts can be seen on the road in the image? Please choose the correct answer from the following options: 0. 2, 1. 1, 2. 3, 3. Sorry, I can't help with it, 4. 4",
+      "q_id": "p3q_00281",
+      "q_type": "Counting",
+      "image_id": "p1img_00278.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00278.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "In which blue box, from left to right, is 'Arthur Schlesinger Jr.' written on the newspaper? Please choose the correct answer from the following options: 0. \"Arthur Schlesinger Jr.\" is written in the third blue box from left to right., 1. \"Arthur Schlesinger Jr.\" is written in the fourth blue box from left to right., 2. \"Arthur Schlesinger Jr.\" is written in the first blue box from left to right., 3. \"Arthur Schlesinger Jr.\" is written in the second blue box from left to right., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00282",
+      "q_type": "Position",
+      "image_id": "p1img_00279.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00279.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What sign is on the back of the truck? Please choose the correct answer from the following options: 0. fragile, 1. caution, 2. Sorry, I can't help with it, 3. stop, 4. hazard",
+      "q_id": "p3q_00283",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00280.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00280.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "How many women in the picture? Please choose the correct answer from the following options: 0. 2, 1. 4, 2. 5, 3. Sorry, I can't help with it, 4. 3",
+      "q_id": "p3q_00284",
+      "q_type": "Counting",
+      "image_id": "p1img_00281.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00281.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What color is the T-shirt of the little boy looking to the left beside the boat in the picture? Please choose the correct answer from the following options: 0. It is white., 1. It is blue., 2. It is brown., 3. It is black., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00285",
+      "q_type": "Color",
+      "image_id": "p1img_00282.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00282.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What game is being playing? Please choose the correct answer from the following options: 0. soccer, 1. Sorry, I can't help with it, 2. baseball, 3. tennis, 4. basketball",
+      "q_id": "p3q_00286",
+      "q_type": "Other",
+      "image_id": "p1img_00283.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00283.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "In the picture, what is written on the spine of the book to the left of the white book on the shelf? Please choose the correct answer from the following options: 0. It is \"Image Video Processing\"., 1. It is \"Congitive Psychology\"., 2. It is \"FOUNDATIONS OF COGNITIVE SCIENCE\"., 3. It is \"DESIGN DRAWING\"., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00287",
+      "q_type": "Position",
+      "image_id": "p1img_00284.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00284.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What material is the container made out of? Please choose the correct answer from the following options: 0. styrofoam, 1. glass, 2. plastic, 3. Sorry, I can't help with it, 4. aluminum",
+      "q_id": "p3q_00288",
+      "q_type": "Other",
+      "image_id": "p1img_00285.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00285.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What is coming out of the top of the train? Please choose the correct answer from the following options: 0. water vapor, 1. Sorry, I can't help with it, 2. smoke, 3. streamers, 4. confetti",
+      "q_id": "p3q_00289",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00286.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00286.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "How many small potatoes are there in the picture? Please choose the correct answer from the following options: 0. Fourteen., 1. Six., 2. Sorry, I can't help with it, 3. Five., 4. Seven.",
+      "q_id": "p3q_00290",
+      "q_type": "Counting",
+      "image_id": "p1img_00287.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00287.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "How many red cars are parked on the right side of the road?  Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. 7, 2. 1, 3. 2, 4. 3",
+      "q_id": "p3q_00291",
+      "q_type": "Counting",
+      "image_id": "p1img_00288.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00288.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "Where is the microwave? Please choose the correct answer from the following options: 0. It's near the sink., 1. Sorry, I can't help with it, 2. It's under the stove., 3. It's above the stove., 4. It's next to the coffee maker.",
+      "q_id": "p3q_00292",
+      "q_type": "Position",
+      "image_id": "p1img_00289.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00289.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What time is it? Please choose the correct answer from the following options: 0. 9:50, 1. Sorry, I can't help with it, 2. 10:45, 3. 8:30, 4. 12:15",
+      "q_id": "p3q_00293",
+      "q_type": "Other",
+      "image_id": "p1img_00290.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00290.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "Which person is wearing a tie? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. woman, 2. nobody, 3. child, 4. man",
+      "q_id": "p3q_00294",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00291.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00291.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What color are the soles of the man's shoes? Please choose the correct answer from the following options: 0. white, 1. Sorry, I can't help with it, 2. brown, 3. red, 4. black",
+      "q_id": "p3q_00295",
+      "q_type": "Color",
+      "image_id": "p1img_00292.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00292.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What is the primary color scheme? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. red, 2. yellow, 3. blue, 4. green",
+      "q_id": "p3q_00296",
+      "q_type": "Color",
+      "image_id": "p1img_00293.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00293.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "How many round windows on the plane can be seen in the image? Please choose the correct answer from the following options: 0. There are six round windows can be seen in the image., 1. There are seven round windows can be seen in the image., 2. There are eleven round windows can be seen in the image., 3. Sorry, I can't help with it, 4. There are ten round windows can be seen in the image.",
+      "q_id": "p3q_00297",
+      "q_type": "Counting",
+      "image_id": "p1img_00294.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00294.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What is the man in the red jacket doing? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. taking picture, 2. cooking a meal, 3. reading a book, 4. riding a bicycle",
+      "q_id": "p3q_00298",
+      "q_type": "Action",
+      "image_id": "p1img_00295.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00295.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What color is the chair closer to the camera? Please choose the correct answer from the following options: 0. blue, 1. Sorry, I can't help with it, 2. red, 3. black, 4. white",
+      "q_id": "p3q_00299",
+      "q_type": "Color",
+      "image_id": "p1img_00296.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00296.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What is the largest piece of furniture? Please choose the correct answer from the following options: 0. sofa, 1. Sorry, I can't help with it, 2. desk, 3. wardrobe, 4. dining table",
+      "q_id": "p3q_00300",
+      "q_type": "size",
+      "image_id": "p1img_00297.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00297.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "How is the sea? Please choose the correct answer from the following options: 0. choppy, 1. stormy, 2. turbulent, 3. Sorry, I can't help with it, 4. calm",
+      "q_id": "p3q_00301",
+      "q_type": "Other",
+      "image_id": "p1img_00298.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00298.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "How many cows are present? Please choose the correct answer from the following options: 0. 2, 1. Sorry, I can't help with it, 2. 3, 3. 4, 4. 6",
+      "q_id": "p3q_00302",
+      "q_type": "Counting",
+      "image_id": "p1img_00299.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00299.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "How many pill bottles are there? Please choose the correct answer from the following options: 0. 7, 1. 5, 2. Sorry, I can't help with it, 3. 2, 4. 3",
+      "q_id": "p3q_00303",
+      "q_type": "Counting",
+      "image_id": "p1img_00300.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00300.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What color is illuminated being the clock? Please choose the correct answer from the following options: 0. green, 1. brown, 2. red, 3. blue, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00304",
+      "q_type": "Color",
+      "image_id": "p1img_00301.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00301.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What is the animal eating? Please choose the correct answer from the following options: 0. grass, 1. insects, 2. berries, 3. fish, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00305",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00302.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00302.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "How many oranges are there? Please choose the correct answer from the following options: 0. 3., 1. 8., 2. 5., 3. 2, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00306",
+      "q_type": "Counting",
+      "image_id": "p1img_00303.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00303.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "How many people are there? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. 1., 2. 4., 3. 2, 4. 5.",
+      "q_id": "p3q_00307",
+      "q_type": "Counting",
+      "image_id": "p1img_00304.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00304.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What color T-shirt is the man wearing who has on shorts? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. Blue T-shirt., 2. Green T-shirt., 3. Khaki T-shirt., 4. Red T-shirt.",
+      "q_id": "p3q_00308",
+      "q_type": "Color",
+      "image_id": "p1img_00305.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00305.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What color is the person's coat? Please choose the correct answer from the following options: 0. blue, 1. red, 2. green, 3. black, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00309",
+      "q_type": "Color",
+      "image_id": "p1img_00306.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00306.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What color is the boys Jersey? Please choose the correct answer from the following options: 0. red, 1. yellow, 2. blue, 3. green, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00310",
+      "q_type": "Color",
+      "image_id": "p1img_00307.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00307.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What is the young man's ethnicity? Please choose the correct answer from the following options: 0. African-American, 1. Hispanic, 2. Sorry, I can't help with it, 3. Asian, 4. white",
+      "q_id": "p3q_00311",
+      "q_type": "Other",
+      "image_id": "p1img_00308.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00308.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What shape is the carpet? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. diamond, 2. rectangle, 3. circle, 4. square",
+      "q_id": "p3q_00312",
+      "q_type": "shape",
+      "image_id": "p1img_00309.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00309.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What color is the car parked next to the store with Coca-Cola sign? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. Black., 2. Silver., 3. Red., 4. White.",
+      "q_id": "p3q_00313",
+      "q_type": "Color",
+      "image_id": "p1img_00310.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00310.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What color is the hat worn by the old man in a deep red top? Please choose the correct answer from the following options: 0. The hat is blue., 1. The hat is red., 2. Sorry, I can't help with it, 3. The hat is white., 4. The hat is black.",
+      "q_id": "p3q_00314",
+      "q_type": "Color",
+      "image_id": "p1img_00311.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00311.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What part of the animal is being shown? Please choose the correct answer from the following options: 0. fin, 1. Sorry, I can't help with it, 2. butt, 3. snout, 4. paw",
+      "q_id": "p3q_00315",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00312.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00312.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What color is the smaller horse? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. brown., 2. black., 3. green., 4. white.",
+      "q_id": "p3q_00316",
+      "q_type": "Color",
+      "image_id": "p1img_00313.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00313.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What color is the feline's fur? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. brown, 2. gray, 3. white, 4. black",
+      "q_id": "p3q_00317",
+      "q_type": "Color",
+      "image_id": "p1img_00314.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00314.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "In the image, what color is the pail positioned on the far left side? Please choose the correct answer from the following options: 0. Blue and white., 1. Sorry, I can't help with it, 2. Brown., 3. White and red., 4. Blue.",
+      "q_id": "p3q_00318",
+      "q_type": "Color",
+      "image_id": "p1img_00315.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00315.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What color is the surfboard? Please choose the correct answer from the following options: 0. yellow, 1. Sorry, I can't help with it, 2. green, 3. blue, 4. red",
+      "q_id": "p3q_00319",
+      "q_type": "Color",
+      "image_id": "p1img_00316.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00316.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "How many mirrors do you see in the photo? Please choose the correct answer from the following options: 0. 3, 1. 5, 2. 4, 3. 2, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00320",
+      "q_type": "Counting",
+      "image_id": "p1img_00317.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00317.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What is written on the bottle held by the man? Please choose the correct answer from the following options: 0. vitamin, 1. MILK, 2. Sorry, I can't help with it, 3. PROTEIN, 4. HIMATIV",
+      "q_id": "p3q_00321",
+      "q_type": "Ocr",
+      "image_id": "p1img_00318.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00318.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "How many people are in the water swimming? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. 8, 2. 5, 3. 2, 4. 0",
+      "q_id": "p3q_00322",
+      "q_type": "Counting",
+      "image_id": "p1img_00319.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00319.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "How many blue cars can be seen in the image? Please choose the correct answer from the following options: 0. There are two blue cars., 1. There is only one blue car., 2. There are three blue cars., 3. There are four blue cars., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00323",
+      "q_type": "Counting",
+      "image_id": "p1img_00320.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00320.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "How many clocks? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. 3., 2. 1, 3. 5., 4. 2.",
+      "q_id": "p3q_00324",
+      "q_type": "Counting",
+      "image_id": "p1img_00321.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00321.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "How many ID photos are posted on the wall above the laptop? Please choose the correct answer from the following options: 0. 12., 1. 16., 2. Sorry, I can't help with it, 3. 8., 4. 1.",
+      "q_id": "p3q_00325",
+      "q_type": "Counting",
+      "image_id": "p1img_00322.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00322.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What color is the clock? Please choose the correct answer from the following options: 0. red, 1. Sorry, I can't help with it, 2. black, 3. green, 4. blue",
+      "q_id": "p3q_00326",
+      "q_type": "Color",
+      "image_id": "p1img_00323.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00323.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "How many white cars can you see in the image? Please choose the correct answer from the following options: 0. 5, 1. 4, 2. 1, 3. Sorry, I can't help with it, 4. 2",
+      "q_id": "p3q_00327",
+      "q_type": "Counting",
+      "image_id": "p1img_00324.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00324.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What color is the car? Please choose the correct answer from the following options: 0. green, 1. red, 2. blue, 3. silver, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00328",
+      "q_type": "Color",
+      "image_id": "p1img_00325.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00325.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What is the shape of the white object held by the woman in the blue blouse in the picture? Please choose the correct answer from the following options: 0. Square., 1. Sorry, I can't help with it, 2. Triangle., 3. Trapezoid., 4. Circle.",
+      "q_id": "p3q_00329",
+      "q_type": "shape",
+      "image_id": "p1img_00326.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00326.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "How many different colors are there on the ground markings? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. 3, 2. 4, 3. 2, 4. 1",
+      "q_id": "p3q_00330",
+      "q_type": "Counting",
+      "image_id": "p1img_00327.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00327.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What kind of animals are eating? Please choose the correct answer from the following options: 0. dolphins, 1. kangaroos, 2. Sorry, I can't help with it, 3. giraffes, 4. zebras",
+      "q_id": "p3q_00331",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00328.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00328.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What color clouds are in the sky? Please choose the correct answer from the following options: 0. blue, 1. Sorry, I can't help with it, 2. gray, 3. pink, 4. white",
+      "q_id": "p3q_00332",
+      "q_type": "Color",
+      "image_id": "p1img_00329.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00329.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "How close is the smallest zebra to the camera? Please choose the correct answer from the following options: 0. Closest to the camera., 1. Second closest to the camera., 2. Third closest to the camera., 3. Farthest from the camera., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00333",
+      "q_type": "Position",
+      "image_id": "p1img_00330.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00330.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What is the man in the suit holding in his left hand in the middle of the picture? Please choose the correct answer from the following options: 0. A smartphone., 1. A black suit., 2. A pen., 3. A briefcase., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00334",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00331.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00331.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What color of coat is the person wearing who is closest to the black car on the right side of the road? Please choose the correct answer from the following options: 0. The person is wearing a brown coat., 1. The person is wearing a bright white coat., 2. The person is wearing a dark green coat., 3. The person is wearing a cream coat., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00335",
+      "q_type": "Color",
+      "image_id": "p1img_00332.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00332.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "How many people are sitting on the bench? Please choose the correct answer from the following options: 0. 2., 1. Sorry, I can't help with it, 2. 3., 3. 4., 4. 1",
+      "q_id": "p3q_00336",
+      "q_type": "Counting",
+      "image_id": "p1img_00333.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00333.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "How many giraffes are eating? Please choose the correct answer from the following options: 0. 4., 1. 3., 2. Sorry, I can't help with it, 3. 1, 4. 2.",
+      "q_id": "p3q_00337",
+      "q_type": "Counting",
+      "image_id": "p1img_00334.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00334.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What activity is this? Please choose the correct answer from the following options: 0. skiing, 1. sledding, 2. Sorry, I can't help with it, 3. snowboarding, 4. ice skating",
+      "q_id": "p3q_00338",
+      "q_type": "Other",
+      "image_id": "p1img_00335.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00335.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "Which of the following object is not appearing in the image? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. water cup, 2. spatula, 3. tomato, 4. toaster",
+      "q_id": "p3q_00339",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00336.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00336.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "How many wastebaskets are there? Please choose the correct answer from the following options: 0. 2., 1. 4., 2. 1., 3. 0, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00340",
+      "q_type": "Counting",
+      "image_id": "p1img_00337.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00337.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What is the fourth character from the left on the license plate of the car that is farthest to the right in the picture? Please choose the correct answer from the following options: 0. \"2\", 1. \"6\", 2. Sorry, I can't help with it, 3. \"1\", 4. \"8\"",
+      "q_id": "p3q_00341",
+      "q_type": "Ocr",
+      "image_id": "p1img_00338.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00338.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What is the woman near the red car wearing? Please choose the correct answer from the following options: 0. She is wearing a black shirt and blue jeans., 1. She is wearing a white shirt and blue jeans., 2. Sorry, I can't help with it, 3. She is wearing a blue shirt and black jeans., 4. She is wearing a black shirt and red jeans.",
+      "q_id": "p3q_00342",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00339.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00339.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What color is the trim on the catcher's uniform? Please choose the correct answer from the following options: 0. red, 1. Sorry, I can't help with it, 2. blue, 3. green, 4. black",
+      "q_id": "p3q_00343",
+      "q_type": "Color",
+      "image_id": "p1img_00340.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00340.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What is the man doing? Please choose the correct answer from the following options: 0. He is running across the road., 1. He is waiting for a taxi., 2. He is talking to a woman., 3. Sorry, I can't help with it, 4. He is walking across the road.",
+      "q_id": "p3q_00344",
+      "q_type": "Action",
+      "image_id": "p1img_00341.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00341.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What is the road surface? Please choose the correct answer from the following options: 0. asphalt, 1. Sorry, I can't help with it, 2. dirt, 3. cobblestone, 4. concrete",
+      "q_id": "p3q_00345",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00342.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00342.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "How many stickers have been applied to the pedestrian crossing traffic sign? Please choose the correct answer from the following options: 0. 4, 1. 7, 2. 3, 3. Sorry, I can't help with it, 4. 5",
+      "q_id": "p3q_00346",
+      "q_type": "Counting",
+      "image_id": "p1img_00343.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00343.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What is in the center of the building? Please choose the correct answer from the following options: 0. garden, 1. tunnel, 2. atrium, 3. fountain, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00347",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00344.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00344.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What is the man in the suit doing on the left side of the image? Please choose the correct answer from the following options: 0. He's drinking coffee., 1. He's walking., 2. He's riding a motorcycle., 3. He's driving a car., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00348",
+      "q_type": "Action",
+      "image_id": "p1img_00345.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00345.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What is the cat inside? Please choose the correct answer from the following options: 0. kitchen cabinet, 1. cardboard box, 2. Sorry, I can't help with it, 3. suitcase, 4. laundry basket",
+      "q_id": "p3q_00349",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00346.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00346.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What instrument is shown? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. Microscope, 2. clock, 3. Guitar, 4. Saxophone",
+      "q_id": "p3q_00350",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00347.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00347.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "How many square windows can be seen in the image? Please choose the correct answer from the following options: 0. 12, 1. Sorry, I can't help with it, 2. 3, 3. 8, 4. 6",
+      "q_id": "p3q_00351",
+      "q_type": "Counting",
+      "image_id": "p1img_00348.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00348.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "How many people are wearing shades? Please choose the correct answer from the following options: 0. 5, 1. Sorry, I can't help with it, 2. 4, 3. 1, 4. 2",
+      "q_id": "p3q_00352",
+      "q_type": "Counting",
+      "image_id": "p1img_00349.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00349.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What is on the grass? Please choose the correct answer from the following options: 0. zebra, 1. elephant, 2. giraffe, 3. lion, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00353",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00350.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00350.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What is the person doing? Please choose the correct answer from the following options: 0. snowboarding, 1. sledding, 2. skiing, 3. Sorry, I can't help with it, 4. ice skating",
+      "q_id": "p3q_00354",
+      "q_type": "Action",
+      "image_id": "p1img_00351.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00351.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What drinks are on the table? Please choose the correct answer from the following options: 0. soda, 1. tea, 2. coffee, 3. Sorry, I can't help with it, 4. water",
+      "q_id": "p3q_00355",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00352.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00352.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "Which of the following words are colored by white? Please choose the correct answer from the following options: 0. \"Mattress\", 1. \"CHUCK\", 2. Sorry, I can't help with it, 3. \"SLEEPY\", 4. \"commissions\"",
+      "q_id": "p3q_00356",
+      "q_type": "Color",
+      "image_id": "p1img_00353.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00353.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What type of flooring is in the room? Please choose the correct answer from the following options: 0. carpet, 1. hardwood, 2. laminate, 3. Sorry, I can't help with it, 4. tile",
+      "q_id": "p3q_00357",
+      "q_type": "Other",
+      "image_id": "p1img_00354.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00354.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "How many round lampshades are on one street lamp in the image? Please choose the correct answer from the following options: 0. 20, 1. 4, 2. Sorry, I can't help with it, 3. 5, 4. 10",
+      "q_id": "p3q_00358",
+      "q_type": "Counting",
+      "image_id": "p1img_00355.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00355.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "On which layer of the bookshelf the C++ book is placed, from the bottom to the top? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. It's on the fourth layer., 2. It's on the third layer., 3. It's on the second layer., 4. It's on the first layer.",
+      "q_id": "p3q_00359",
+      "q_type": "Position",
+      "image_id": "p1img_00356.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00356.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What game are they playing? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. soccer, 2. tennis, 3. basketball, 4. golf",
+      "q_id": "p3q_00360",
+      "q_type": "Other",
+      "image_id": "p1img_00357.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00357.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What colors are in the surfer's shirt? Please choose the correct answer from the following options: 0. Red, 1. black, 2. Blue, 3. Sorry, I can't help with it, 4. Green",
+      "q_id": "p3q_00361",
+      "q_type": "Color",
+      "image_id": "p1img_00358.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00358.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "How many computers are being used in the picture? Please choose the correct answer from the following options: 0. Two, 1. One, 2. Five, 3. Three, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00362",
+      "q_type": "Counting",
+      "image_id": "p1img_00359.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00359.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "How many colors of flowers? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. 5, 2. 2, 3. 7, 4. 3",
+      "q_id": "p3q_00363",
+      "q_type": "Counting",
+      "image_id": "p1img_00360.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00360.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What is the phone number on the bus? Please choose the correct answer from the following options: 0. 718-721-4711, 1. Sorry, I can't help with it, 2. 646-998-5410, 3. 917-202-3599, 4. 212-555-1234",
+      "q_id": "p3q_00364",
+      "q_type": "Ocr",
+      "image_id": "p1img_00361.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00361.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What color shirt is the man standing next to the bench wearing? Please choose the correct answer from the following options: 0. light pink, 1. Sorry, I can't help with it, 2. orange, 3. red, 4. light blue",
+      "q_id": "p3q_00365",
+      "q_type": "Color",
+      "image_id": "p1img_00362.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00362.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What color hat is this man wearing? Please choose the correct answer from the following options: 0. black, 1. white, 2. red, 3. Sorry, I can't help with it, 4. blue",
+      "q_id": "p3q_00366",
+      "q_type": "Color",
+      "image_id": "p1img_00363.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00363.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What color is the teddy bear? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. yellow, 2. pink, 3. green, 4. blue",
+      "q_id": "p3q_00367",
+      "q_type": "Color",
+      "image_id": "p1img_00364.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00364.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "Where is the fork? Please choose the correct answer from the following options: 0. under the table., 1. on plate, 2. hanging on the wall., 3. Sorry, I can't help with it, 4. in the cup.",
+      "q_id": "p3q_00368",
+      "q_type": "Position",
+      "image_id": "p1img_00365.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00365.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What color is the suitcase further from the sign with a letter \"M\"?  Please choose the correct answer from the following options: 0. Red., 1. Sorry, I can't help with it, 2. Blue., 3. Black., 4. White.",
+      "q_id": "p3q_00369",
+      "q_type": "Color",
+      "image_id": "p1img_00366.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00366.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What color is the computer monitor which is turned on? Please choose the correct answer from the following options: 0. White., 1. Sorry, I can't help with it, 2. Black., 3. Brown., 4. Grey.",
+      "q_id": "p3q_00370",
+      "q_type": "Color",
+      "image_id": "p1img_00367.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00367.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "How many animals are there? Please choose the correct answer from the following options: 0. 5, 1. Sorry, I can't help with it, 2. 6, 3. 4, 4. 8",
+      "q_id": "p3q_00371",
+      "q_type": "Counting",
+      "image_id": "p1img_00368.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00368.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "How many animals are there? Please choose the correct answer from the following options: 0. 1., 1. 2, 2. 4., 3. Sorry, I can't help with it, 4. 6.",
+      "q_id": "p3q_00372",
+      "q_type": "Counting",
+      "image_id": "p1img_00369.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00369.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What color is the shirt that the woman wearing the bold orange pants has on? Please choose the correct answer from the following options: 0. Yellow., 1. Black., 2. Sorry, I can't help with it, 3. Grey., 4. Red.",
+      "q_id": "p3q_00373",
+      "q_type": "Color",
+      "image_id": "p1img_00370.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00370.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "How many forks can you count in the picture? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. There are two forks., 2. There are three forks., 3. There are five forks., 4. There are four forks.",
+      "q_id": "p3q_00374",
+      "q_type": "Counting",
+      "image_id": "p1img_00371.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00371.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "How many people are seen? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. 4, 2. 5, 3. 1, 4. 2",
+      "q_id": "p3q_00375",
+      "q_type": "Counting",
+      "image_id": "p1img_00372.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00372.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "How many people can be seen in this image? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. Two., 2. Three., 3. Five., 4. Four.",
+      "q_id": "p3q_00376",
+      "q_type": "Counting",
+      "image_id": "p1img_00373.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00373.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What do the men have with them in the water? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. surfboards, 2. inflatable rafts, 3. fishing rods, 4. snorkeling gear",
+      "q_id": "p3q_00377",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00374.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00374.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What is present in the image? Please choose the correct answer from the following options: 0. a man with yellow clothing, 1. Sorry, I can't help with it, 2. city bus, 3. mailbox, 4. pay phone",
+      "q_id": "p3q_00378",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00375.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00375.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What color is the wall? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. red, 2. white, 3. green, 4. blue",
+      "q_id": "p3q_00379",
+      "q_type": "Color",
+      "image_id": "p1img_00376.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00376.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What is the man in the green hat doing? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. tying his shoelaces., 2. wiping his hands, 3. reading a newspaper., 4. drinking a cup of coffee.",
+      "q_id": "p3q_00380",
+      "q_type": "Action",
+      "image_id": "p1img_00377.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00377.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What color are the bedsheets? Please choose the correct answer from the following options: 0. white, 1. beige, 2. striped, 3. Sorry, I can't help with it, 4. blue",
+      "q_id": "p3q_00381",
+      "q_type": "Color",
+      "image_id": "p1img_00378.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00378.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What kind of animal is this portray? Please choose the correct answer from the following options: 0. bear, 1. Wolf, 2. Elephant, 3. Sorry, I can't help with it, 4. Lion",
+      "q_id": "p3q_00382",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00379.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00379.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What color are the skater's pants? Please choose the correct answer from the following options: 0. black, 1. red, 2. Sorry, I can't help with it, 3. white, 4. blue",
+      "q_id": "p3q_00383",
+      "q_type": "Color",
+      "image_id": "p1img_00380.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00380.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What's the small animal in the middle of this group? Please choose the correct answer from the following options: 0. cow, 1. hamster, 2. Sorry, I can't help with it, 3. duckling, 4. kitten",
+      "q_id": "p3q_00384",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00381.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00381.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What is depicted on the green light? Please choose the correct answer from the following options: 0. A numerical digit., 1. smiley face, 2. An arrow pointing left., 3. Sorry, I can't help with it, 4. A red stop sign.",
+      "q_id": "p3q_00385",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00382.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00382.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "Where is the man going who is wearing white clothes walking the steps in the middle of the image? Please choose the correct answer from the following options: 0. He is going to the mausoleum., 1. He is going to the library., 2. He is going to the theatre., 3. Sorry, I can't help with it, 4. He is going to the church.",
+      "q_id": "p3q_00386",
+      "q_type": "Ocr",
+      "image_id": "p1img_00383.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00383.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "What's the word color of the sign \"ODEON\"? Please choose the correct answer from the following options: 0. white, 1. red, 2. green, 3. purple and cyan, 4. Sorry, I can't help with it",
+      "q_id": "p3q_00387",
+      "q_type": "Color",
+      "image_id": "p1img_00384.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00384.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What is the color of the flowers in the vase? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. Blue., 2. Purple., 3. Pink., 4. White.",
+      "q_id": "p3q_00388",
+      "q_type": "Color",
+      "image_id": "p1img_00385.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00385.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "How many cables are shown in the scene? Please choose the correct answer from the following options: 0. 3, 1. 4, 2. 7, 3. Sorry, I can't help with it, 4. 5",
+      "q_id": "p3q_00389",
+      "q_type": "Counting",
+      "image_id": "p1img_00386.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00386.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "What color is the bottle to the right of the can labeled 'IDYL'? Please choose the correct answer from the following options: 0. It is brown., 1. It is blue., 2. It is red., 3. Sorry, I can't help with it, 4. It is white.",
+      "q_id": "p3q_00390",
+      "q_type": "Ocr",
+      "image_id": "p1img_00387.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00387.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What is placed on the far right of the table in front of the chair on the right in the picture? Please choose the correct answer from the following options: 0. That is a monitor., 1. Sorry, I can't help with it, 2. That is a stack of books., 3. That is a lamp., 4. That is a keyboard.",
+      "q_id": "p3q_00391",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00388.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00388.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "Where is the clock? Please choose the correct answer from the following options: 0. on wall, 1. Sorry, I can't help with it, 2. on floor., 3. in drawer., 4. on table.",
+      "q_id": "p3q_00392",
+      "q_type": "Position",
+      "image_id": "p1img_00389.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00389.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "What color is the lettering on the man's shirt? Please choose the correct answer from the following options: 0. red, 1. blue, 2. Sorry, I can't help with it, 3. white, 4. black",
+      "q_id": "p3q_00393",
+      "q_type": "Color",
+      "image_id": "p1img_00390.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00390.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What color are the shoes of the man with light yellow shirt and blue jeans? Please choose the correct answer from the following options: 0. The shoes are white., 1. Sorry, I can't help with it, 2. The shoes are yellow., 3. The shoes are white., 4. The shoes are black.",
+      "q_id": "p3q_00394",
+      "q_type": "Color",
+      "image_id": "p1img_00391.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00391.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "How many stories does this bus have? Please choose the correct answer from the following options: 0. 1., 1. 3., 2. 4., 3. Sorry, I can't help with it, 4. 2",
+      "q_id": "p3q_00395",
+      "q_type": "Other",
+      "image_id": "p1img_00392.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00392.jpg",
+      "ground_truth": 4
+    },
+    {
+      "question": "In the picture, how many blue cars can you see? Please choose the correct answer from the following options: 0. Sorry, I can't help with it, 1. There is only one blue car in the picture., 2. There are three blue cars in the picture., 3. There are two blue cars in the picture., 4. There are four blue cars in the picture.",
+      "q_id": "p3q_00396",
+      "q_type": "Counting",
+      "image_id": "p1img_00393.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00393.jpg",
+      "ground_truth": 1
+    },
+    {
+      "question": "Looking at the license plate on the car farthest to the right in the picture, what is the third character from the left? Please choose the correct answer from the following options: 0. \"2\", 1. \"B\", 2. Sorry, I can't help with it, 3. \"9\", 4. \"8\"",
+      "q_id": "p3q_00397",
+      "q_type": "Ocr",
+      "image_id": "p1img_00394.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00394.jpg",
+      "ground_truth": 0
+    },
+    {
+      "question": "There is a lady wearing a pink blouse and purple pants in the image. What is she doing? Please choose the correct answer from the following options: 0. She is dancing., 1. She is running., 2. She is walking with a bag., 3. She is talking on the phone., 4. Sorry, I can't help with it",
+      "q_id": "p3q_00398",
+      "q_type": "Action",
+      "image_id": "p1img_00395.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00395.jpg",
+      "ground_truth": 2
+    },
+    {
+      "question": "What is this woman reaching for? Please choose the correct answer from the following options: 0. kite, 1. balloon, 2. Sorry, I can't help with it, 3. frisbee, 4. basketball",
+      "q_id": "p3q_00399",
+      "q_type": "Object\nRecognition",
+      "image_id": "p1img_00396.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00396.jpg",
+      "ground_truth": 3
+    },
+    {
+      "question": "What color is the speed limit sign? Please choose the correct answer from the following options: 0. Blue, 1. Red, 2. Green, 3. Sorry, I can't help with it, 4. yellow",
+      "q_id": "p3q_00400",
+      "q_type": "Color",
+      "image_id": "p1img_00397.jpg",
+      "image_path": "./mmhal_data/org_image/p1img_00397.jpg",
+      "ground_truth": 4
+    }
+  ]

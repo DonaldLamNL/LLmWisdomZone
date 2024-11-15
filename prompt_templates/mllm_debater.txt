@@ -1,0 +1,12 @@
+!<INPUT 1>! -- main question
+!<INPUT 2>! -- answer
+
+Output the following aspects in JSON format: '{ "stand": "your stand on this problem", "reason": "the reason of the stand"}'
+<commentblockmarker>###</commentblockmarker>
+
+Given the question: "!<INPUT 1>!" and the corresponding image.
+
+Agent's response: "**!<INPUT 2>!**".
+
+Using the information as context, evaluate the response from the agent.
+Output your stand and feedback.
