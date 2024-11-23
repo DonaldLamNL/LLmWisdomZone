@@ -135,10 +135,35 @@ class ImageDataset():
             subquestions = subquestion_generator(entities, question, caption, model)
             entry["subquestions"] = subquestions
             self.save_json(savefile)
+
+    def generate_subquestion_overall(self, model:LLMChat, savefile:str) -> None:
+        for entry in tqdm(self.data, desc="Generating subquestions"):
+            question = entry["question"]
+            caption = entry["caption"]
+            subquestions = subquestion_generator_overall(question, caption, model)
+            entry["subquestions_all"] = subquestions
+        self.save_json(savefile)
+
+    def subquestion_answering_overall(self, model: LLMChat, savefile:str) -> None:
+        for entry in tqdm(self.data, desc="Generating subquestions answers"):
+            for subquestion in entry["subquestions_all"]:
+                """Load image"""
+                image_path = entry["image_path"]
+                target_question = entry["question"]
+                image_paths = [image_path]
+                question = subquestion["question"]
+                caption = entry["caption"]
+                answer = subquestion_answering_overall(image_paths, caption, question, target_question, model)
+                subquestion["answer"] = answer
+        self.save_json(savefile)
+
             
             
     def new_subquestion_answering(self, model:LLMChat, savefile:str) -> None:
         for entry in tqdm(self.data, desc="Answering subquestions"):
+            if entry["subquestions"] is None:
+                entry["subquestions"] = []
+                continue
             for subquestion in tqdm(entry["subquestions"]):
                 caption = entry["caption"]
                 question = subquestion["question"]
@@ -201,8 +226,14 @@ class ImageDataset():
                         summarized_content += summarization(sample["renamed_obj"], sample["subquestions"], model)
                         summarized_content += "\n"
             entry["summarized"] = summarized_content
-    
-    
+
+    def subquestion_summarization_overall(self, model:LLMChat, savefile:str) -> None:
+        for entry in tqdm(self.data, desc="Generating summarization"):
+            summarized_content = summarization_all(entry["subquestions_all"], entry["question"], entry["caption"], model)
+
+            entry["summarization"] = summarized_content
+        self.save_json(savefile)
+
     def question_answering(self, model:LLMChat, savefile:str) -> None:
         for entry in tqdm(self.data, desc="Answering questions"):
             answer = question_answering([entry["image_path"]], entry["question"], entry["summarization"], model)
@@ -215,7 +246,12 @@ class ImageDataset():
             final_answer = debator.run([entry["image_path"]], entry["question"], entry["mllm_answer"], entry["summarization"])
             entry["final_answer"] = final_answer
             self.save_json(savefile)
-    
+
+    def vqa(self, model:LLMChat, savefile:str) -> None:
+        for entry in tqdm(self.data, desc="Answering questions"):
+            answer = vqa([entry["image_path"]], entry["question"], model)
+            entry["mllm_answer"] = answer
+            self.save_json(savefile)
     
     def get_dataset(self):
         return self.data

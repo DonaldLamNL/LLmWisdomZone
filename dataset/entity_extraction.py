@@ -27,7 +27,10 @@ class EntityExtractor:
             print("inputs: ", inputs)
             response = self.model.chat(inputs)
             print("response: ", response)
-            entities = response.lower().split("extracted entities: ")[1].strip().split(", ")
+            if "extracted entities:" in response.lower():
+                entities = response.lower().split("extracted entities:")[1].strip().split(", ")
+            else:
+                entities = []
             # entities_str = extract_content(response, "entities")
             # entities = ast.literal_eval(entities_str)
             print("entities: ", entities)

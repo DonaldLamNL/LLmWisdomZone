@@ -1,16 +1,20 @@
 !<INPUT 1>! -- caption
 !<INPUT 2>! -- subquestion
-!<INPUT 3>! -- entity
+!<INPUT 3>! -- question
 
 The description of the original image is "!<INPUT 1>!".
 The provided image is a cropped version focusing on the entity labeled as "!<INPUT 3>!."
 Given the question: "!<INPUT 2>!" which related to that entity.
 Please answer the question according to the provided image.
 
-<commentblockmarker>###</commentblockmarker>
-
-
-
 
 Given the image and its caption: "!<INPUT 1>!"
 Answer the question: "!<INPUT 2>!" with a short and clear response.
+
+<commentblockmarker>###</commentblockmarker>
+
+Given the image and its caption: "!<INPUT 1>!", and a target question: "!<INPUT 3>!"
+
+Given the question: "!<INPUT 2>!" which related to the image and maybe a sub-step to answer the target question.
+
+Please answer the questions. If there are multiple questions, the answers to the previous questions can be used as clues to the following questions. Please think step by step to answer the questions.

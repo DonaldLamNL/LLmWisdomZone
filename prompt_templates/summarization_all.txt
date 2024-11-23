@@ -1,0 +1,12 @@
+!<INPUT 1>! -- question-answer pairs
+!<INPUT 2>! -- question
+!<INPUT 3>! -- caption
+
+<commentblockmarker>###</commentblockmarker>
+
+There is a question !<INPUT 2>! for an image with caption !<INPUT 3>!
+Please summarize the information from the following question-answer pairs so that it is helpful to serve as critical information to answer the target question:
+!<INPUT 1>!
+
+The summarization will be utilized as the context to answer the question according to the image.
+Please make the summarization only contain information useful or relevant to answer the given question.

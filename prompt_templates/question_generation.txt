@@ -1,0 +1,14 @@
+!<INPUT 1>! -- main question
+!<INPUT 2>! -- caption
+
+<commentblockmarker>###</commentblockmarker>
+
+Given the image with its description as "!<INPUT 2>!", and a target question "!<INPUT 1>!", please generate at most three sub-questions that can solve the target question step by step.
+So that answering these sub-questions can approach to the final answer with the shortest logical path.
+
+Output these sub-questions with the format as follows, and separate the sub-question by comma:
+Sub-questions: sub-question 1, sub-question 2, ...
+
+Don't generate questions that are irreverent to the target question, or make the question more complex to answer.
+If the target question is already obvious to solve according to the given information, output the target question directly as
+Sub-questions: target question

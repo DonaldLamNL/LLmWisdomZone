@@ -7,6 +7,17 @@ from llm.format import Message
 SYSTEM_PROMPT = "You are a helpful assistant."
 MAX_RETRY=5
 
+
+def vqa(image_paths:str, question: str, model: LLMChat) -> List[dict]:
+    inputs = [Message(role="system", content=SYSTEM_PROMPT)]
+    inputs.append(Message(role="user", content=question, image_paths=image_paths))
+    for i in range(MAX_RETRY):
+        try:
+            response = model.chat(inputs)
+            return response
+        except:
+            print(f"Generate sub-questions: Retry {i+1}")
+
 # Get Prompt Template
 def get_prompt_template(filepath: str, inputs: List) -> str:
     with open(filepath, 'r') as file:
@@ -47,7 +58,7 @@ def extract_list_from_string(input_string: str):
 
 
 def generate_caption(model, question, image_paths):
-    content = f"Given the following question: \"{question}\" and the related image, generate a short caption to describe the image related to the question."
+    content = f"Given the following question: \"{question}\" and the related image, generate an informative caption to describe the image based on the question. Please don't miss any information related to the target question and please don't include any irreverent information."
     
     inputs = [Message(role="user", content=content, image_paths=image_paths)]
     for i in range(MAX_RETRY):
@@ -72,6 +83,28 @@ def subquestion_generator(entity: str, question: str, caption:str, model: LLMCha
             return [{"question": question} for question in subquestions]
         except:
             print(f"Generate sub-questions: Retry {i+1}")
+
+def subquestion_generator_overall(question: str, caption:str, model: LLMChat) -> List[dict]:
+    input_prompt = get_prompt_template(
+        filepath="./prompt_templates/question_generation.txt",
+        inputs=[question, caption]
+    )
+    inputs = [Message(role="system", content=SYSTEM_PROMPT)]
+    inputs.append(Message(role="user", content=input_prompt))
+    for i in range(MAX_RETRY):
+        try:
+            response = model.chat(inputs)
+        except:
+            print(f"Generate sub-questions: Retry {i+1}")
+    if "none" in response.lower():
+        return []
+    else:
+        if "sub-questions:" in response.lower():
+            subquestions = response.lower().split("sub-questions:")[1] # .strip().split(", ")
+            # return [{"question": question} for question in subquestions]
+            return [{"question": subquestions}]
+        else:
+            return []
             
 
 def subquestion_answering(image_paths:str, caption:str, question: str, entity: str, model: LLMChat) -> str:
@@ -88,8 +121,22 @@ def subquestion_answering(image_paths:str, caption:str, question: str, entity: s
         except:
             print(f"Answer sub-questions: Retry {i+1}")
 
+def subquestion_answering_overall(image_paths:str, caption:str, question: str, target_question: str, model: LLMChat) -> str:
+    input_prompt = get_prompt_template(
+        filepath="./prompt_templates/subquestion_answering.txt",
+        inputs=[caption, question, target_question]
+    )
+    inputs = [Message(role="system", content=SYSTEM_PROMPT)]
+    inputs.append(Message(role="user", content=input_prompt, image_paths=image_paths))
+    for i in range(MAX_RETRY):
+        try:
+            response = model.chat(inputs)
+            return response
+        except:
+            print(f"Generate sub-questions: Retry {i+1}")
 
-def summarization(entity:str, subquest_ans_info:List[dict[str]], question:str, caption:str, model: LLMChat) -> str:
+
+def summarization(entity:str, subquest_ans_info, question:str, caption:str, model: LLMChat) -> str:
     input_prompt = get_prompt_template(
         filepath="./prompt_templates/summarization.txt",
         inputs=[entity, subquest_ans_info, question, caption]
@@ -103,6 +150,16 @@ def summarization(entity:str, subquest_ans_info:List[dict[str]], question:str, c
         except:
             print(f"Summarize sub-questions: Retry {i+1}")
 
+def summarization_all(pairs:List[dict[str]], question:str, caption:str, model: LLMChat) -> str:
+    information = "\n".join([f"{p['question']}\n{p['answer']}" for p in pairs])
+    input_prompt = get_prompt_template(
+        filepath="./prompt_templates/summarization_all.txt",
+        inputs=[information, question, caption]
+    )
+    inputs = [Message(role="system", content=SYSTEM_PROMPT)]
+    inputs.append(Message(role="user", content=input_prompt))
+    response = model.chat(inputs)
+    return response
 
 def question_answering(image_paths:str, question: str, information:str, model: LLMChat) -> List[dict]:
     input_prompt = get_prompt_template(

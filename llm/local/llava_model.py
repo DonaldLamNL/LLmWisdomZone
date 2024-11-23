@@ -27,7 +27,7 @@ class LlavaChat(LLMChat):
         inputs = self.processor(images=images, text=prompt, return_tensors="pt").to(self.device)
         
         # Generate the output autoregressively
-        output = self.model.generate(**inputs, max_new_tokens=256)
+        output = self.model.generate(**inputs, temperature=1, max_new_tokens=512)
         
         # Decode the output and return the result
         result = self.processor.decode(output[0], skip_special_tokens=True).split('[/INST]')[-1].strip()
