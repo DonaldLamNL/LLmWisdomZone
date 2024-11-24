@@ -243,8 +243,20 @@ class ImageDataset():
     
     def debate(self, debator, savefile:str) -> None:
         for entry in tqdm(self.data, desc="Debate"):
-            final_answer = debator.run([entry["image_path"]], entry["question"], entry["mllm_answer"], entry["summarization"])
-            entry["final_answer"] = final_answer
+            
+            llm_critic, mllm_critic, answer_after_debating = debator.run(
+                image_path = entry["image_path"],
+                question = entry["question"],
+                caption = entry["caption"],
+                subquestions = entry["subquestions_all"][0]["question"],
+                subquestions_answer = entry["subquestions_all"][0]["answer"],
+                summarization = entry["summarization"],
+                final_answer = entry["mllm_answer"],
+            )
+            
+            entry["llm_critic"] = llm_critic
+            entry["mllm_critic"] = mllm_critic
+            entry["answer_after_debating"] = answer_after_debating
             self.save_json(savefile)
 
     def vqa(self, model:LLMChat, savefile:str) -> None:

@@ -1,12 +1,25 @@
 !<INPUT 1>! -- main question
-!<INPUT 2>! -- answer
+!<INPUT 2>! -- caption
+!<INPUT 3>! -- subquestions
+!<INPUT 4>! -- subquestions' answer
+!<INPUT 5>! -- summarized information
+!<INPUT 6>! -- final answer
 
-Output the following aspects in JSON format: '{ "stand": "your stand on this problem", "reason": "the reason of the stand"}'
 <commentblockmarker>###</commentblockmarker>
 
-Given the question: "!<INPUT 1>!" and the corresponding image.
+You are an expert reviewer. Your task is to critically analyze the inputs and outputs provided:
+1. Main Question: !<INPUT 1>!
+2. Caption: !<INPUT 2>!
+3. Subquestions: !<INPUT 3>!
+4. Subquestions' Answer: !<INPUT 4>!
+5. Summarized Information: !<INPUT 5>!
+6. Final Answer: !<INPUT 6>!
 
-Agent's response: "**!<INPUT 2>!**".
+Critically analyze the following:
+1. Does the caption accurately and comprehensively describe the image?
+2. Are the subquestions relevant to the image content?
+3. Do the answers to the subquestions align with the image's content?
+4. Does the summarized information appropriately integrate the image content?
+5. Is the final answer consistent with the image and all preceding inputs?
 
-Using the information as context, evaluate the response from the agent.
-Output your stand and feedback.
+Highlight any discrepancies, inaccuracies, or omissions related to the image. Provide constructive feedback.

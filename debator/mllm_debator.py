@@ -5,33 +5,36 @@ from utils.global_functions import *
 SYSTEM_PROMPT = "You are a helpful assistant."
 
 class MLLMDebator():
-    agent: LLMChat
-    question: str
-    answer: str
-    image_paths: str
-    
-    def __init__(self, agent, question, answer, image_paths) -> None:
+    def __init__(self, agent, **kwargs) -> None:
         self.agent = agent
-        self.question = question
-        self.answer = answer
-        self.image_paths = image_paths
+        self.image_path = kwargs.get("image_path", "No image path provided")
+        self.question = kwargs.get("question", "No question provided")
+        self.caption = kwargs.get("caption", "No caption provided")
+        self.subquestions = kwargs.get("subquestions", "No subquestions provided")
+        self.subquestions_answer = kwargs.get("subquestions_answer", "No answer provided")
+        self.summarization = kwargs.get("summarization", "No summarization provided")
+        self.final_answer = kwargs.get("final_answer", "No final answer provided")
+
         
     def init_run(self):
         self.history = [Message("system", SYSTEM_PROMPT)]
         input_prompt = get_prompt_template(
             filepath="./prompt_templates/mllm_debater.txt",
-            inputs=[self.question, self.answer]
+            inputs=[
+                self.question,
+                self.caption,
+                self.subquestions,
+                self.subquestions_answer,
+                self.summarization,
+                self.final_answer,
+            ]
         )
-        self.history.append(Message(role="user", content=input_prompt, image_paths=self.image_paths))
+        self.history.append(Message(role="user", content=input_prompt, image_paths=[self.image_path]))
         
         for i in range(MAX_RETRY):
             try:
                 response = self.agent.chat(self.history)
                 return response
-                stand, reason = extract_content(response, "stand"), extract_content(response, "reason")
-                # json_response = extract_json_format(response)
-                # json_response = json.loads(json_response)
-                # return json_response["stand"], json_response["reason"]
             except:
                 print(f"Generate: Retry {i+1}")
     

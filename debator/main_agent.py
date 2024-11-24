@@ -5,36 +5,28 @@ from utils.global_functions import *
 SYSTEM_PROMPT = "You are a helpful assistant."
 
 class MainAgent():
-    agent: LLMChat
-    question: str
-    answer: str
-    summarized: str
-    image_paths: str
     
-    def __init__(self, agent, question, answer, summarized, image_paths) -> None:
+    def __init__(self, agent, **kwargs) -> None:
         self.agent = agent
-        self.question = question
-        self.answer = answer
-        self.summarized = summarized
-        self.image_paths = image_paths
+        self.image_path = kwargs.get("image_path", "No image path provided")
+        self.question = kwargs.get("question", "No question provided")
+        self.caption = kwargs.get("caption", "No caption provided")
+        self.subquestions = kwargs.get("subquestions", "No subquestions provided")
+        self.subquestions_answer = kwargs.get("subquestions_answer", "No answer provided")
+        self.summarization = kwargs.get("summarization", "No summarization provided")
+        self.final_answer = kwargs.get("final_answer", "No final answer provided")
         self.history = [Message("system", SYSTEM_PROMPT)]
     
     
-    def run(self, response:str) -> str:
+    def run(self, comments:str) -> str:
         input_prompt = get_prompt_template(
             filepath="./prompt_templates/main_agent_debate.txt",
-            inputs=[self.question, self.summarized, self.answer, response]
+            inputs=[self.question, self.caption, self.summarization, self.final_answer, comments]
         )
-        self.history.append(Message("user", input_prompt, self.image_paths))
+        self.history.append(Message("user", input_prompt, image_paths=[self.image_path]))
         for i in range(MAX_RETRY):
             try:
                 response = self.agent.chat(self.history)
                 return response
-
-                stand, reason, answer = extract_content(response, "stand"), extract_content(response, "reason"), extract_content(response, "answer")
-                return stand, reason, answer
-                # json_response = extract_json_format(response)
-                # json_response = json.loads(json_response)
-                # return json_response["stand"], json_response["reason"], json_response["answer"]
             except:
                 print(f"Generate sub-questions: Retry {i+1}")

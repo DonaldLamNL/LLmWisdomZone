@@ -1,16 +1,25 @@
 !<INPUT 1>! -- main question
-!<INPUT 2>! -- summarized information
-!<INPUT 3>! -- agent's response
+!<INPUT 2>! -- caption
+!<INPUT 3>! -- subquestions
+!<INPUT 4>! -- subquestions' answer
+!<INPUT 5>! -- summarized information
+!<INPUT 6>! -- final answer
 
-Output the following aspects in JSON format: '{ "stand": "your stand on this problem", "reason": "the reason of the stand"}'
 <commentblockmarker>###</commentblockmarker>
 
-Given the main question: "!<INPUT 1>!".
+You are an expert reviewer. Your task is to critically analyze the inputs and outputs provided:
+1. Main Question: !<INPUT 1>!
+2. Caption: !<INPUT 2>!
+3. Subquestions: !<INPUT 3>!
+4. Subquestions' Answer: !<INPUT 4>!
+5. Summarized Information: !<INPUT 5>!
+6. Final Answer: !<INPUT 6>!
 
-Given the inferred information from other agents:
-**!<INPUT 2>!**
+Critically analyze the following:
+1. Does the set of subquestions effectively address the main question?
+2. Are the answers to the subquestions logical, coherent, and relevant to their respective subquestions?
+3. Is the summarized information accurate and logically derived from the subquestions and their answers?
+4. Is the final answer correct, and does it effectively address the main question?
+5. Highlight any contradictions, errors, or gaps and suggest improvements.
 
-Agent's response: "**!<INPUT 3>!**".
-
-Using the previous inferences as context, evaluate the response from the agent.
-Output your stand and feedback.
+Provide your critique concisely and clearly in sentences.

@@ -1,19 +1,18 @@
 !<INPUT 1>! -- main question
-!<INPUT 2>! -- summarized
-!<INPUT 3>! -- answer
-!<INPUT 4>! -- comments
+!<INPUT 2>! -- caption
+!<INPUT 3>! -- summarized information
+!<INPUT 4>! -- final answer
+!<INPUT 5>! -- comments
 
 <commentblockmarker>###</commentblockmarker>
 
-Given the question: "!<INPUT 1>!" and the corresponding image.
+Given the image and its caption: "!<INPUT 2>!", and a target question: "!<INPUT 1>!"
 
-Given the inferred information from other agents:
-!<INPUT 2>!
+Given the summarized information: !<INPUT 3>!
 
-Your stand is "!<INPUT 3>!".
+Your stand is "!<INPUT 4>!".
 
-Comments from other agents:
-!<INPUT 4>!
+Comments from the critics:
+!<INPUT 5>!
 
-Please consider the provided information and the comments from other agents.
 Consider the image, information and comments, output your final answer on this question.

@@ -11,20 +11,17 @@ class Debate():
         self.llm = llm
         self.mllm = mllm
         
-    def run(self, image_paths:str, question:str, answer:str, summarized:str) -> str:
-        # for i in range(self.rounds):
-        llm_reason = ""
-        if summarized != "":
-            self.llm_debator = LLMDebator(agent=self.llm, question=question, answer=answer, summarized=summarized)
-            llm_reason = self.llm_debator.init_run()
+    def run(self, **kwargs) -> str:
+        self.llm_debator = LLMDebator(agent=self.llm, **kwargs)
+        llm_reason = self.llm_debator.init_run()
     
-        self.mllm_debator = MLLMDebator(agent=self.mllm, question=question, answer=answer, image_paths=image_paths)
+        self.mllm_debator = MLLMDebator(agent=self.mllm, **kwargs)
         mllm_reason = self.mllm_debator.init_run()
         
-        self.main_agent = MainAgent(agent=self.mllm, question=question, answer=answer, summarized=summarized, image_paths=image_paths)
+        self.main_agent = MainAgent(agent=self.mllm, **kwargs)
         comments = llm_reason + "\n" + mllm_reason
         answer = self.main_agent.run(comments)
         
-        return answer
+        return llm_reason, mllm_reason, answer
         
     
