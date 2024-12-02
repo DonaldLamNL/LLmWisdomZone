@@ -9,6 +9,6 @@ So that answering these sub-questions can approach to the final answer with the 
 Output these sub-questions with the format as follows, and separate the sub-question by comma:
 Sub-questions: sub-question 1, sub-question 2, ...
 
-Don't generate questions that are irreverent to the target question, or make the question more complex to answer.
+Don't generate questions that are irrelevant to the target question, or make the question more complex to answer.
 If the target question is already obvious to solve according to the given information, output the target question directly as
 Sub-questions: target question

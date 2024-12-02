@@ -4,7 +4,7 @@
 
 <commentblockmarker>###</commentblockmarker>
 
-There is a question !<INPUT 2>! for an image with caption !<INPUT 3>!
+There is a question "!<INPUT 2>!" for an image with caption "!<INPUT 3>!"
 Please summarize the information from the following question-answer pairs so that it is helpful to serve as critical information to answer the target question:
 !<INPUT 1>!
 

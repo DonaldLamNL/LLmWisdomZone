@@ -58,7 +58,7 @@ def extract_list_from_string(input_string: str):
 
 
 def generate_caption(model, question, image_paths):
-    content = f"Given the following question: \"{question}\" and the related image, generate an informative caption to describe the image based on the question. Please don't miss any information related to the target question and please don't include any irreverent information."
+    content = f"Given the following question: \"{question}\" and the related image, generate an informative caption to describe the image based on the question. Please don't miss any information related to the target question and please don't include any irrelevant information."
     
     inputs = [Message(role="user", content=content, image_paths=image_paths)]
     for i in range(MAX_RETRY):
